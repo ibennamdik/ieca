@@ -23,7 +23,7 @@ div.style-customizer {
 }
 
 .style-customizer a.button:hover {
-    color:#95c41f !important; 
+    color:#116b45 !important; 
 }
 
 .style-customizer.closed {
@@ -40,7 +40,7 @@ div.style-customizer {
 
 
 .style-customizer a.button.button-border {
-  background: #95c41f none repeat scroll 0 0;
+  background: #116b45 none repeat scroll 0 0;
   color: #fff;
   font-size: 15px;
   font-weight: 700;
@@ -51,7 +51,7 @@ div.style-customizer {
 }
 .style-customizer a.button.button-border:hover {
   background: transparent none repeat scroll 0 0;
-  border: 1px solid #95e41f;
+  border: 1px solid #116b45;
 }
 
 div.style-customizer .buy-button {
@@ -153,7 +153,7 @@ div.style-customizer ul.layoutstyle li {
   width: 49%;
 }
 div.style-customizer ul.layoutstyle li:hover {
-  background-color: #95c41f;
+  background-color: #116b45;
   color: #fff;
 }
 
@@ -233,7 +233,7 @@ div.style-customizer select {
 /*Color Skins*/
 
 div.style-customizer .skin-default {
-    background: #95c41f; /*1*/
+    background: #116b45; /*1*/
 }
 div.style-customizer .skin-amber {
     background: #ff1744; /*2*/
@@ -273,31 +273,31 @@ div.style-customizer .skin-teal {
 /*Background Patterns*/
 
 .pattern-1 {
-    background-image: url("../images/customizer/pattern/1.png");
+    background-image: url("../frontend_img/customizer/pattern/1.png");
 }
 .pattern-2 {
-    background-image: url("../images/customizer/pattern/2.png");
+    background-image: url("../frontend_img/customizer/pattern/2.png");
 }
 .pattern-3 {
-    background-image: url("../images/customizer/pattern/3.png");
+    background-image: url("../frontend_img/customizer/pattern/3.png");
 }
 .pattern-4 {
-    background-image: url("../images/customizer/pattern/4.png");
+    background-image: url("../frontend_img/customizer/pattern/4.png");
 }
 .pattern-5 {
-    background-image: url("../images/customizer/pattern/5.png");
+    background-image: url("../frontend_img/customizer/pattern/5.png");
 }
 .pattern-6 {
-    background-image: url("../images/customizer/pattern/6.png");
+    background-image: url("../frontend_img/customizer/pattern/6.png");
 }
 .pattern-7 {
-    background-image: url("../images/customizer/pattern/7.png");
+    background-image: url("../frontend_img/customizer/pattern/7.png");
 }
 .pattern-8 {
-    background-image: url("../images/customizer/pattern/8.png");
+    background-image: url("../frontend_img/customizer/pattern/8.png");
 }
 
-/*Background Images*/
+/*Background frontend_img*/
 
 .main-bg-change li {
     overflow: hidden;
@@ -309,7 +309,7 @@ div.style-customizer .skin-teal {
 }
 
 .main-bg-1,.main-bg-2,.main-bg-3,.main-bg-4,.main-bg-5,.main-bg-6,.main-bg-7,.main-bg-8 {
-    background-image: url("../images/customizer/bodybg/01.jpg");
+    background-image: url("../frontend_img/customizer/bodybg/01.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -317,25 +317,25 @@ div.style-customizer .skin-teal {
 }
 
 .main-bg-2 {
-    background-image: url("../images/customizer/bodybg/02.jpg");
+    background-image: url("../frontend_img/customizer/bodybg/02.jpg");
 }
 .main-bg-3 {
-    background-image: url("../images/customizer/bodybg/03.jpg");
+    background-image: url("../frontend_img/customizer/bodybg/03.jpg");
 }
 .main-bg-4 {
-    background-image: url("../images/customizer/bodybg/04.jpg");
+    background-image: url("../frontend_img/customizer/bodybg/04.jpg");
 }
 .main-bg-5 {
-    background-image: url("../images/customizer/bodybg/05.jpg");
+    background-image: url("../frontend_img/customizer/bodybg/05.jpg");
 }
 .main-bg-6 {
-    background-image: url("../images/customizer/bodybg/06.jpg");
+    background-image: url("../frontend_img/customizer/bodybg/06.jpg");
 }
 .main-bg-7 {
-    background-image: url("../images/customizer/bodybg/07.jpg");
+    background-image: url("../frontend_img/customizer/bodybg/07.jpg");
 }
 .main-bg-8 {
-    background-image: url("../images/customizer/bodybg/08.jpg");
+    background-image: url("../frontend_img/customizer/bodybg/08.jpg");
 }
 
 
@@ -512,7 +512,7 @@ div.style-customizer .skin-teal {
 }
 
 .patternChange .main-bg-change li.main-bg-1 {
-    background-image: url("../images/main-bg-0.jpg");
+    background-image: url("../frontend_img/main-bg-0.jpg");
 }
 
 @media( max-width:992px) {

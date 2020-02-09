@@ -10,25 +10,37 @@
                                 <ul class="footer-address">
                                     <li>
                                         <div class="address-icon">
-                                            <img src="images/icons/location-2.png" alt="">
+                                            <img src="{{ asset('/media/frontend_imgs/icons/location-2.png') }}" alt="">
                                         </div>
                                         <div class="address-info">
-                                            <span>{{ $settings->address }}</span>
-                                            <span>Glasgow, D04 89GR</span>
+                                            <span>No 8 Udo Udoma Street</span>
+                                            <span>Asokoro, Abuja</span>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="address-icon">
-                                            <img src="images/icons/phone-3.png" alt="">
+                                            <img src="{{ asset('/media/frontend_imgs/icons/location-2.png') }}" alt="">
                                         </div>
                                         <div class="address-info">
-                                            <span>Telephone : {{ $settings->phone1 }}</span>
-                                            <span>Telephone : {{ $settings->phone2 }}</span>
+                                            <span>Plot 2 Gude District</span>
+                                            <span>FCT, Abuja</span>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="address-icon">
-                                            <img src="images/icons/world.png" alt="">
+                                            <img src="{{ asset('/media/frontend_imgs/icons/phone-3.png') }}" alt="">
+                                        </div>
+                                        <div class="address-info">
+                                            <span>Telephone : +234 807 883 0874</span>
+                                            <span>Telephone : +234 703 676 4008</span>
+                                            <span>Telephone : +234 807 575 0900</span>
+                                            <span>Telephone : +234 806 664 7753</span>
+                                            <span>Telephone : +234 802 223 7099</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="address-icon">
+                                            <img src="{{ asset('/media/frontend_imgs/icons/world.png') }}" alt="">
                                         </div>
                                         <div class="address-info">
                                             <span>Email : {{ $settings->email }}</span>
@@ -41,39 +53,10 @@
                         <!-- footer-latest-news -->
                         <div class="col-xl-6 col-lg-5 col-12 order-3 order-lg-2 mt-md-30">
                             <div class="footer-widget middle">
-                                <h6 class="footer-titel">LATEST NEWS</h6>
-                                <ul class="footer-latest-news">
-                                    <li>
-                                        <div class="latest-news-image">
-                                            <a href="single-blog.html"><img src="images/blog/1.jpg" alt=""></a>
-                                        </div>
-                                        <div class="latest-news-info">
-                                            <h6><a href="single-blog.html">Beautiful Home</a></h6>
-                                            <p>Lorem ipsum dolor sit amet, consectetur acinglit sed do eiusmod tempor
-                                                inciidunt ut labore </p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="latest-news-image">
-                                            <a href="single-blog.html"><img src="images/blog/2.jpg" alt=""></a>
-                                        </div>
-                                        <div class="latest-news-info">
-                                            <h6><a href="single-blog.html">Beautiful Home</a></h6>
-                                            <p>Lorem ipsum dolor sit amet, consectetur acinglit sed do eiusmod tempor
-                                                inciidunt ut labore </p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="latest-news-image">
-                                            <a href="single-blog.html"><img src="images/blog/3.jpg" alt=""></a>
-                                        </div>
-                                        <div class="latest-news-info">
-                                            <h6><a href="single-blog.html">Beautiful Home</a></h6>
-                                            <p>Lorem ipsum dolor sit amet, consectetur acinglit sed do eiusmod tempor
-                                                inciidunt ut labore </p>
-                                        </div>
-                                    </li>
-                                </ul>
+                                <h6 class="footer-titel">LOCATION</h6>
+                                <div class="google-map-area">
+                                    <div id="googleMap" style="height:300px;"></div>
+                                </div>
                             </div>
                         </div>
                         <!-- footer-contact -->
@@ -81,7 +64,7 @@
                             <div class="footer-widget">
                                 <h6 class="footer-titel">QUICK CONTACT</h6>
                                 <div class="footer-contact">
-                                    <p>Lorem ipsum dolor sit amet, consectetur acinglit sed do eiusmod tempor</p>
+                                    <p>For enquiries, for questions</p>
                                     <form id="contact-form-2" action="mail_footer.php" method="post">
                                         <input type="email" name="email2" placeholder="Type your E-mail address...">
                                         <textarea name="message2" placeholder="Write here..."></textarea>
@@ -111,7 +94,7 @@
         <!-- End footer area -->
 
         <!--style-customizer start -->
-        <div class="style-customizer closed">
+        <!-- <div class="style-customizer closed">
             <div class="buy-button">
                 <a href="index.html" class="customizer-logo"><img src="images/logo/logo.png" alt="Theme Logo"></a>
                 <a class="opener" href="#"><i class="fa fa-cog fa-spin" aria-hidden="true"></i></a>
@@ -167,5 +150,5 @@
                     <li><a class="button button-border button-reset" href="#">Reset All</a></li>
                 </ul>
             </div>
-        </div>
+        </div> -->
         <!--style-customizer end -->

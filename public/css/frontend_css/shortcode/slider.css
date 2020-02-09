@@ -50,7 +50,7 @@
 }
 
 .slider-1-title-1 span {
-    color: #95C41F;
+    color: #116B45;
 }
 
 .slider-1-title-2 {
@@ -107,7 +107,7 @@
 .nivo-directionNav a:hover {
     color: #FFF;
     border: 1px solid transparent;
-    background: #95C41F none repeat scroll 0 0;
+    background: #116B45 none repeat scroll 0 0;
 }
 
 /*nivo-controlNav*/
@@ -142,7 +142,7 @@
 .nivo-controlNav a.active {
     font-weight: bold;
 
-    background: #95C41F none repeat scroll 0 0;
+    background: #116B45 none repeat scroll 0 0;
 }
 
 .nivo-controlNav {
@@ -170,8 +170,8 @@
 
 .slider-button:hover {
     color: #FFF;
-    border: 1px solid #95C41F;
-    background: #95C41F;
+    border: 1px solid #116B45;
+    background: #116B45;
 }
 
 /* ------------------------------
@@ -188,8 +188,8 @@
     margin-left: 20%;
     padding: 45px 30px 20px;
 
-    border-bottom: 4px solid #95C41F;
-    background: rgba(31, 34, 62, 0.7) none repeat scroll 0 0;
+    border-bottom: 4px solid #116B45;
+    background: #116B45 none repeat scroll 0 0;
 }
 
 .find-home-box .section-title {
@@ -245,5 +245,5 @@
 
     content: "";
 
-    background: rgba(0, 0, 0, 0) url("../../images/icons/grid.png") repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) url("../../frontend_imgs/icons/grid.png") repeat scroll 0 0;
 }

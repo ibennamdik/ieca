@@ -1,13 +1,13 @@
 @extends('layouts.simple')
 
 @section('content')
-<!-- SLIDER SECTION START -->
-<div class="slider-1 pos-relative slider-overlay">
+        <!-- SLIDER SECTION START -->
+        <div class="slider-1 pos-relative slider-overlay">
             <div class="bend niceties preview-1">
                 <div id="ensign-nivoslider-3" class="slides">
-                    <img src="asset('media/frontend_imgs/slider/1.jpg') }}" alt="" title="#slider-direction-1" />
-                    <img src="asset('media/frontend_imgs/slider/1.jpg') }}" alt="" title="#slider-direction-2" />
-                    <img src="asset('media/frontend_imgs/slider/1.jpg') }}" alt="" title="#slider-direction-3" />
+                    <img src="{{ asset('media/frontend_imgs/slider/1.jpg') }}" alt="" title="#slider-direction-1" />
+                    <img src="{{ asset('media/frontend_imgs/slider/1.jpg') }}" alt="" title="#slider-direction-2" />
+                    <img src="{{ asset('media/frontend_imgs/slider/1.jpg') }}" alt="" title="#slider-direction-3" />
                 </div>
                 <!-- direction 1 -->
                 <div id="slider-direction-1" class="slider-direction">
@@ -70,37 +70,6 @@
         <!-- Start page content -->
         <section id="page-content" class="page-wrapper">
 
-            <!-- FIND HOME AREA START -->
-            <div class="find-home-area bg-blue call-to-bg plr-140 pt-60 pb-20">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-3 col-12">
-                            <div class="section-title text-white">
-                                <h3>WHO</h3>
-                                <h2 class="h1">ARE WE?</h2>
-                            </div>
-                        </div>
-                        <div class="col-lg-9 col-12">
-                            <div class="find-homes">
-                                <div class="row">
-                                    <div class="col-md-12 col-12">
-                                        <div class="find-home-item custom-select">
-                                            International Economic City, Abuja, (IECA), is an iconic organized private sector driven stimulus project for effective participation of Nigeria 
-                                            businesses in receiving foreign investment into Nigeria as a result of AFRICA CONTINENTAL FREE TRADE AGREEMENT (AFCFTA).
-                                            <b>The IECA will provide large scale commercial, industrial, residential and recreational facilities to aid economic and social activities for the benefit of Nigeria 
-                                            and international businesses.</b> The vision behind the International Economic City,Abuja is to ensure that, in concrete terms, none of the numerous business, jobs and wealth creation 
-                                            opportunities offered by AFCFTA is not lost to Nigeria and her economy.
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- FIND HOME AREA END -->
-
             <!-- ABOUT I.E.C.A AREA START -->
             <div class="about-I.E.C.A-area ptb-115">
                 <div class="container">
@@ -116,15 +85,14 @@
                                     roadway to Nnamdi Azikwe International Airport and 25 kilometers to Aso Villa, presidential seat of power in Nigeria, taking your bearing 
                                     in a direct straight road through Shoprite departmental store, Apo District, Abuja.</p>
 
-                                <p>The International Economic City, Abuja, is designed to have a dedicated power plant, for generation of power to be used within the economic city, 
-                                    roads built to global standard, as well as natural water drainage systems, sewage and water treatment plant, gas piping, ultra modern security and 
-                                    surveillance systems, fibre duets, fire fighting system, organized city maintenance team, sports and entertainment facilities, eyes popping natural 
-                                    landscaping, natural habitats and parks.</p>
+                                <p>International Economic City, Abuja, (IECA), will provide large scale commercial, industrial, residential and recreational facilities to aid economic 
+                                    and social activities for the benefit of Nigeria and international businesses. The vision behind the International Economic City, Abuja is to ensure that, in concrete terms, none of the numerous business, jobs and wealth creation 
+                                    opportunities offered by AFCFTA is not lost to Nigeria and her economy.</p>
                             </div>
                         </div>
                         <div class="col-md-6 col-12">
                             <div class="about-image">
-                                <a href="about.html"><img src="images/about/1.jpg" alt=""></a>
+                                <a href="about.html"><img src="{{ asset('/media/frontend_imgs/about/1.jpg') }}" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -155,7 +123,7 @@
                                 </div>
                                 
                                 <div class="booking-imgae">
-                                    <img src="images/others/booking.png" alt="">
+                                    <img src="{{ asset('/media/frontend_imgs/others/booking.png') }}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -171,9 +139,8 @@
                         <div class="col-12">
                             <div class="section-title-2 text-center">
                                 <h2>Investment OPPORTUNITIES</h2>
-                                <p>I.E.C.A is the best theme for elit, sed do eiusmod tempor dolor sit amet, conse
-                                    ctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et lorna aliquatd
-                                    minim veniam, quis nostrud</p>
+                                <p>I.E.C.A is an iconic organized private sector driven stimulus project for effective participation of Nigeria businesses in 
+                                    receiving foreign investment into Nigeria as a result of AFRICA CONTINENTAL FREE TRADE AGREEMENT (AFCFTA). </p>
                             </div>
                         </div>
                     </div>
@@ -183,19 +150,19 @@
                             <div class="col-lg-4 col-md-6 col-12">
                                 <div class="flat-item">
                                     <div class="flat-item-image">
-                                        <span class="for-sale">&nbsp;</span>
-                                        <a href="properties-details.html"><img src="images/flat/1.jpg" alt=""></a>
+                                        <!-- <span class="for-sale">&nbsp;</span> -->
+                                        <a href="properties-details.html"><img src="{{ asset('/media/frontend_imgs/flat/1.jpg') }}" alt=""></a>
                                         <div class="flat-link">
                                             <a href="properties-details.html">More Details</a>
                                         </div>
                                         <ul class="flat-desc">
                                             <li>
-                                                <img src="images/icons/4.png" alt="">
+                                                <img src="{{ asset('/media/frontend_imgs/icons/4.png') }}" alt="">
                                                 <span>450 sqft</span>
                                             </li>
                                             <li>
-                                                <img src="images/icons/13.png" alt="">
-                                                <img src="images/icons/14.png" alt="">
+                                                <img src="{{ asset('/media/frontend_imgs/icons/13.png') }}" alt="">
+                                                <img src="{{ asset('/media/frontend_imgs/icons/14.png') }}" alt="">
                                             </li>
                                         </ul>
                                     </div>
@@ -213,19 +180,19 @@
                             <div class="col-lg-4 col-md-6 col-12">
                                 <div class="flat-item">
                                     <div class="flat-item-image">
-                                        <span class="for-sale">&nbsp;</span>
-                                        <a href="properties-details.html"><img src="images/flat/2.jpg" alt=""></a>
+                                        <!-- <span class="for-sale">&nbsp;</span> -->
+                                        <a href="properties-details.html"><img src="{{ asset('/media/frontend_imgs/flat/2.jpg') }}" alt=""></a>
                                         <div class="flat-link">
                                             <a href="properties-details.html">More Details</a>
                                         </div>
                                         <ul class="flat-desc">
                                             <li>
-                                                <img src="images/icons/4.png" alt="">
+                                                <img src="{{ asset('/media/frontend_imgs/icons/4.png') }}" alt="">
                                                 <span>Over 1200 plots</span>
                                             </li>
                                             <li>
-                                                <img src="images/icons/13.png" alt="">
-                                                <img src="images/icons/14.png" alt="">
+                                                <img src="{{ asset('/media/frontend_imgs/icons/13.png') }}" alt="">
+                                                <img src="{{ asset('/media/frontend_imgs/icons/14.png') }}" alt="">
                                                 <span></span>
                                             </li>
                                         </ul>
@@ -244,19 +211,19 @@
                             <div class="col-lg-4 col-md-6 col-12">
                                 <div class="flat-item">
                                     <div class="flat-item-image">
-                                        <span class="for-sale">&nbsp;</span>
-                                        <a href="properties-details.html"><img src="images/flat/3.jpg" alt=""></a>
+                                        <!-- <span class="for-sale">&nbsp;</span> -->
+                                        <a href="properties-details.html"><img src="{{ asset('/media/frontend_imgs/flat/3.jpg') }}" alt=""></a>
                                         <div class="flat-link">
                                             <a href="properties-details.html">More Details</a>
                                         </div>
                                         <ul class="flat-desc">
                                             <li>
-                                                <img src="images/icons/4.png" alt="">
+                                                <img src="{{ asset('/media/frontend_imgs/icons/4.png') }}" alt="">
                                                 <span>450 sqft</span>
                                             </li>
                                             <li>
-                                                <img src="images/icons/13.png" alt="">
-                                                <img src="images/icons/14.png" alt="">
+                                                <img src="{{ asset('/media/frontend_imgs/icons/13.png') }}" alt="">
+                                                <img src="{{ asset('/media/frontend_imgs/icons/14.png') }}" alt="">
                                             </li>
                                         </ul>
                                     </div>
@@ -360,7 +327,7 @@
                                     <div class="col-12">
                                         <div class="single-agent">
                                             <div class="agent-image">
-                                                <img src="images/agents/1.jpg" alt="">
+                                                <img src="{{ asset('/media/frontend_imgs/agents/1.jpg') }}" alt="">
                                             </div>
                                             <div class="agent-info">
                                                 <div class="agent-name">
@@ -374,8 +341,8 @@
                                                     <p>Real Estate Agent</p>
                                                 </div> -->
                                                 <ul class="agent-address">
-                                                    <li><img src="images/icons/phone-2.png" alt="">+1245 785 659 </li>
-                                                    <li><img src="images/icons/mail-close.png" alt="">mnkwocha@ieca.com.ng
+                                                    <li><img src="{{ asset('/media/frontend_imgs/icons/phone-2.png') }}" alt="">+1245 785 659 </li>
+                                                    <li><img src="{{ asset('/media/frontend_imgs/icons/mail-close.png') }}" alt="">mnkwocha@ieca.com.ng
                                                     </li>
                                                 </ul>
                                                 <ul class="social-media">
@@ -392,7 +359,7 @@
                                     <div class="col-12">
                                         <div class="single-agent">
                                             <div class="agent-image">
-                                                <img src="images/agents/2.jpg" alt="">
+                                                <img src="{{ asset('/media/frontend_imgs/agents/2.jpg') }}" alt="">
                                             </div>
                                             <div class="agent-info">
                                                 <div class="agent-name">
@@ -406,8 +373,8 @@
                                                     <p>Real Estate Broker</p>
                                                 </div> -->
                                                 <ul class="agent-address">
-                                                    <li><img src="images/icons/phone-2.png" alt="">+1245 785 659 </li>
-                                                    <li><img src="images/icons/mail-close.png" alt="">abubunu@ieca.com.ng
+                                                    <li><img src="{{ asset('/media/frontend_imgs/icons/phone-2.png') }}" alt="">+1245 785 659 </li>
+                                                    <li><img src="{{ asset('/media/frontend_imgs/icons/mail-close.png') }}" alt="">abubunu@ieca.com.ng
                                                     </li>
                                                 </ul>
                                                 <ul class="social-media">
@@ -424,7 +391,7 @@
                                     <div class="col-12">
                                         <div class="single-agent">
                                             <div class="agent-image">
-                                                <img src="images/agents/3.jpg" alt="">
+                                                <img src="{{ asset('/media/frontend_imgs/agents/3.jpg') }}" alt="">
                                             </div>
                                             <div class="agent-info">
                                                 <div class="agent-name">
@@ -438,8 +405,8 @@
                                                     <p>Real Estate Broker</p>
                                                 </div> -->
                                                 <ul class="agent-address">
-                                                    <li><img src="images/icons/phone-2.png" alt="">+1245 785 659 </li>
-                                                    <li><img src="images/icons/mail-close.png" alt="">ihabdulahi@ieca.com.ng
+                                                    <li><img src="{{ asset('/media/frontend_imgs/icons/phone-2.png') }}" alt="">+1245 785 659 </li>
+                                                    <li><img src="{{ asset('/media/frontend_imgs/icons/mail-close.png') }}" alt="">ihabdulahi@ieca.com.ng
                                                     </li>
                                                 </ul>
                                                 <ul class="social-media">
@@ -456,7 +423,7 @@
                                     <div class="col-12">
                                         <div class="single-agent">
                                             <div class="agent-image">
-                                                <img src="images/agents/4.jpg" alt="">
+                                                <img src="{{ asset('/media/frontend_imgs/agents/4.jpg') }}" alt="">
                                             </div>
                                             <div class="agent-info">
                                                 <div class="agent-name">
@@ -470,8 +437,8 @@
                                                     <p>Real Estate Agent</p>
                                                 </div> -->
                                                 <ul class="agent-address">
-                                                    <li><img src="images/icons/phone-2.png" alt="">&nbsp; </li>
-                                                    <li><img src="images/icons/mail-close.png" alt="">&nbsp;
+                                                    <li><img src="{{ asset('/media/frontend_imgs/icons/phone-2.png') }}" alt="">&nbsp; </li>
+                                                    <li><img src="{{ asset('/media/frontend_imgs/icons/mail-close.png') }}" alt="">&nbsp;
                                                     </li>
                                                 </ul>
                                                 <ul class="social-media">
@@ -551,7 +518,7 @@
                                     </div>
                                     <div class="col-lg-4 col-md-3">
                                         <div class="testimonial-image">
-                                            <img src="images/frontend_imgs/others/testimonial.jpg" alt="">
+                                            <img src="{{ asset('/media/frontend_imgs/frontend_imgs/others/testimonial.jpg') }}" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -562,96 +529,6 @@
             </div>
             <!-- TESTIMONIAL AREA END -->
 
-            <!-- BLOG AREA START -->
-            <div class="blog-area pb-60">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="section-title-2 text-center">
-                                <h2>NEWS FROM I.E.C.A</h2>
-                                <p>I.E.C.A is the best theme for elit, sed do eiusmod tempor dolor sit amet, conse
-                                    ctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et lorna aliquatd
-                                    minim veniam, quis nostrud</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="blog-carousel">
-                                <!-- blog-item -->
-                                <div class="col">
-                                    <article class="blog-item bg-gray">
-                                        <div class="blog-image">
-                                            <a href="single-blog.html"><img src="images/blog/1.jpg" alt=""></a>
-                                        </div>
-                                        <div class="blog-info">
-                                            <div class="post-title-time">
-                                                <h5><a href="single-blog.html">Maridland de Villa</a></h5>
-                                                <p>July 30, 2017 / 10 am</p>
-                                            </div>
-                                            <p>Lorem must explain to you how all this mistaolt denouncing pleasure and
-                                                praising pain wasnad I will give you a complete pain was praising</p>
-                                            <a class="read-more" href="single-blog.html">Read more</a>
-                                        </div>
-                                    </article>
-                                </div>
-                                <!-- blog-item -->
-                                <div class="col">
-                                    <article class="blog-item bg-gray">
-                                        <div class="blog-image">
-                                            <a href="single-blog.html"><img src="images/blog/2.jpg" alt=""></a>
-                                        </div>
-                                        <div class="blog-info">
-                                            <div class="post-title-time">
-                                                <h5><a href="single-blog.html">Latest Design House</a></h5>
-                                                <p>July 30, 2017 / 10 am</p>
-                                            </div>
-                                            <p>Lorem must explain to you how all this mistaolt denouncing pleasure and
-                                                praising pain wasnad I will give you a complete pain was praising</p>
-                                            <a class="read-more" href="single-blog.html">Read more</a>
-                                        </div>
-                                    </article>
-                                </div>
-                                <!-- blog-item -->
-                                <div class="col">
-                                    <article class="blog-item bg-gray">
-                                        <div class="blog-image">
-                                            <a href="single-blog.html"><img src="images/blog/3.jpg" alt=""></a>
-                                        </div>
-                                        <div class="blog-info">
-                                            <div class="post-title-time">
-                                                <h5><a href="single-blog.html">Duplex Villa House</a></h5>
-                                                <p>July 30, 2017 / 10 am</p>
-                                            </div>
-                                            <p>Lorem must explain to you how all this mistaolt denouncing pleasure and
-                                                praising pain wasnad I will give you a complete pain was praising</p>
-                                            <a class="read-more" href="single-blog.html">Read more</a>
-                                        </div>
-                                    </article>
-                                </div>
-                                <!-- blog-item -->
-                                <div class="col">
-                                    <article class="blog-item bg-gray">
-                                        <div class="blog-image">
-                                            <a href="single-blog.html"><img src="images/blog/2.jpg" alt=""></a>
-                                        </div>
-                                        <div class="blog-info">
-                                            <div class="post-title-time">
-                                                <h5><a href="single-blog.html">Latest Design House</a></h5>
-                                                <p>July 30, 2017 / 10 am</p>
-                                            </div>
-                                            <p>Lorem must explain to you how all this mistaolt denouncing pleasure and
-                                                praising pain wasnad I will give you a complete pain was praising</p>
-                                            <a class="read-more" href="single-blog.html">Read more</a>
-                                        </div>
-                                    </article>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- BLOG AREA END -->
 
             <!-- DEVELOPERS AND ENGINEERS AREA START -->
             <div class="testimonial-area pb-115">
@@ -682,7 +559,7 @@
                                     </div>
                                     <div class="col-lg-4 col-md-3">
                                         <div class="testimonial-image">
-                                            <img src="images/others/testimonial.jpg" alt="">
+                                            <img src="{{ asset('/media/frontend_imgs/others/testimonial.jpg') }}" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -702,43 +579,43 @@
                                 <!-- brand-item -->
                                 <div class="col">
                                     <div class="brand-item">
-                                        <img src="images/brand/1.png" alt="">
+                                        <img src="{{ asset('/media/frontend_imgs/brand/1.png') }}" alt="">
                                     </div>
                                 </div>
                                 <!-- brand-item -->
                                 <div class="col">
                                     <div class="brand-item">
-                                        <img src="images/brand/2.png" alt="">
+                                        <img src="{{ asset('/media/frontend_imgs/brand/2.png') }}" alt="">
                                     </div>
                                 </div>
                                 <!-- brand-item -->
                                 <div class="col">
                                     <div class="brand-item">
-                                        <img src="images/brand/3.png" alt="">
+                                        <img src="{{ asset('/media/frontend_imgs/brand/3.png') }}" alt="">
                                     </div>
                                 </div>
                                 <!-- brand-item -->
                                 <div class="col">
                                     <div class="brand-item">
-                                        <img src="images/brand/4.png" alt="">
+                                        <img src="{{ asset('/media/frontend_imgs/brand/4.png') }} alt="">
                                     </div>
                                 </div>
                                 <!-- brand-item -->
                                 <div class="col">
                                     <div class="brand-item">
-                                        <img src="images/brand/5.png" alt="">
+                                        <img src="{{ asset('/media/frontend_imgs/brand/5.png') }}" alt="">
                                     </div>
                                 </div>
                                 <!-- brand-item -->
                                 <div class="col">
                                     <div class="brand-item">
-                                        <img src="images/brand/1.png" alt="">
+                                        <img src="{{ asset('/media/frontend_imgs/brand/1.png') }}" alt="">
                                     </div>
                                 </div>
                                 <!-- brand-item -->
                                 <div class="col">
                                     <div class="brand-item">
-                                        <img src="images/brand/4.png" alt="">
+                                        <img src="{{ asset('/media/frontend_imgs/brand/4.png') }}" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -747,30 +624,6 @@
                 </div>
             </div>
             <!-- BRAND AREA END -->
-
-            <!-- SUBSCRIBE AREA START -->
-            <div class="subscribe-area bg-blue call-to-bg plr-140 ptb-50">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-4 col-12">
-                            <div class="section-title text-white">
-                                <h3>SUBSCRIBE</h3>
-                                <h2 class="h1">NEWSLETTER</h2>
-                            </div>
-                        </div>
-                        <div class="col-lg-9 col-md-8 col-12">
-                            <div class="subscribe">
-                                <form action="{{ route('subscription.store') }}" method="POST" enctype="application/x-www-form-urlencoded">
-                                    @csrf
-                                    <input type="text" name="subscribe" placeholder="Enter yur email here...">
-                                    <button type="submit" value="send">Send</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- SUBSCRIBE AREA END -->
         </section>
         <!-- End page content -->
 @endsection

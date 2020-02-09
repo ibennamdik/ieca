@@ -100,7 +100,7 @@
     -webkit-transform: skewX(-30deg);
             transform: skewX(-30deg);
 
-    background: #95C41F none repeat scroll 0 0;
+    background: #116B45 none repeat scroll 0 0;
 }
 
 .call-to-bg:after {
@@ -110,7 +110,7 @@
     width: 100%;
     height: 100%;
 
-    background: rgba(31, 34, 62, 0.8) none repeat scroll 0 0;
+    background: #000000 none repeat scroll 0 0;
 }
 
 /* -----------------------------------
@@ -265,7 +265,7 @@
 
 .ui-slider .ui-slider-range {
     border-radius: 0;
-    background: #95C41F none repeat scroll 0 0;
+    background: #116B45 none repeat scroll 0 0;
 }
 
 .ui-state-default,
@@ -280,7 +280,7 @@
 
     border: medium none;
     border-radius: 50%;
-    background: #95C41F none repeat scroll 0 0;
+    background: #116B45 none repeat scroll 0 0;
 }
 
 /* -----------------------------------
@@ -385,7 +385,7 @@
     text-transform: uppercase;
 
     color: #FFF;
-    background: #95C41F none repeat scroll 0 0;
+    background: #116B45 none repeat scroll 0 0;
 }
 
 .for-sale.rent {
@@ -445,8 +445,8 @@
 
 .flat-link > a:hover {
     color: #FFF;
-    border: 1px solid #95C41F;
-    background: #95C41F none repeat scroll 0 0;
+    border: 1px solid #116B45;
+    background: #116B45 none repeat scroll 0 0;
 }
 
 /*flat-desc*/
@@ -464,7 +464,7 @@
     text-align: center;
 
     color: #BABABA;
-    background: #1F223E none repeat scroll 0 0;
+    background: #01512F none repeat scroll 0 0;
 }
 
 .flat-desc > li + li {
@@ -492,7 +492,7 @@
     font-size: 22px;
     font-weight: 400;
 
-    color: #95C41F;
+    color: #116B45;
 }
 
 .flat-title-price .price {
@@ -572,11 +572,11 @@
     -webkit-transition: all 0.3s ease 0s;
             transition: all 0.3s ease 0s;
 
-    border-bottom: 4px solid #1F223E;
+    border-bottom: 4px solid #01512F;
 }
 
 .single-agent:hover {
-    border-color: #95C41F;
+    border-color: #116B45;
 }
 
 .agent-image > img {
@@ -677,7 +677,7 @@
 }
 
 .single-agent:hover .agent-info-hover .agent-name h5 {
-    color: #95C41F;
+    color: #116B45;
 }
 
 .agent-info-hover .agent-name {
@@ -802,7 +802,7 @@
 }
 
 .dots-right-btm .slick-dots li.slick-active button {
-    background: #95C41F;
+    background: #116B45;
 }
 
 .dots-right-btm .slick-dots li + li {
@@ -839,7 +839,7 @@
     -webkit-transition: all 0.3s ease 0s;
             transition: all 0.3s ease 0s;
 
-    border-bottom: 4px solid #1F223E;
+    border-bottom: 4px solid #01512F;
 }
 
 .post-title-time {
@@ -858,7 +858,7 @@
     -webkit-transition: all 0.3s ease 0s;
             transition: all 0.3s ease 0s;
 
-    background: #1F223E;
+    background: #01512F;
 }
 
 .post-title-time h5 {
@@ -867,12 +867,12 @@
 
 .blog-item:hover .blog-info,
 .blog-item:hover .blog-info a {
-    color: #95C41F;
-    border-color: #95C41F;
+    color: #116B45;
+    border-color: #116B45;
 }
 
 .blog-item:hover .post-title-time:before {
-    background: #95C41F;
+    background: #116B45;
 }
 
 /* -----------------------------------
@@ -898,7 +898,7 @@
 }
 
 .brand-item:hover {
-    border: 1px solid #95C41F;
+    border: 1px solid #116B45;
 }
 
 /* -----------------------------------
@@ -927,7 +927,7 @@
     text-transform: uppercase;
 
     color: #FFF;
-    background: #95C41F none repeat scroll 0 0;
+    background: #116B45 none repeat scroll 0 0;
 }
 
 /*button*/
@@ -942,8 +942,8 @@
     text-align: center;
 
     color: #FFF;
-    border: 1px solid #95C41F;
-    background: #95C41F none repeat scroll 0 0;
+    border: 1px solid #116B45;
+    background: #116B45 none repeat scroll 0 0;
 }
 
 .button-1:focus {
@@ -1080,7 +1080,7 @@
 }
 
 .counter-item i {
-    color: #95C41F;
+    color: #116B45;
 }
 
 .counter-item > p {
@@ -1108,7 +1108,7 @@
 }
 
 .counter-item-2 i {
-    color: #95C41F;
+    color: #116B45;
 }
 
 .counter {
@@ -1123,7 +1123,7 @@
 
     margin-bottom: 0;
 
-    color: #1F223E;
+    color: #01512F;
 }
 
 /* -----------------------------------
@@ -1161,7 +1161,7 @@
 
 .pagination-list > li a:hover {
     color: #FFF;
-    background: #95C41F none repeat scroll 0 0;
+    background: #116B45 none repeat scroll 0 0;
 }
 
 /* -----------------------------------
@@ -1327,11 +1327,11 @@
     text-transform: uppercase;
 
     color: #FFF;
-    background: #95C41F none repeat scroll 0 0;
+    background: #116B45 none repeat scroll 0 0;
 }
 
 .submit-btn-1:hover {
-    background: #1F223E none repeat scroll 0 0;
+    background: #01512F none repeat scroll 0 0;
 }
 
 /* -----------------------------------
@@ -1411,8 +1411,8 @@
 
 .widget-search-property .btn-hover-1:hover {
     color: #FFF;
-    border: 1px solid #1F223E;
-    background: #1F223E none repeat scroll 0 0;
+    border: 1px solid #01512F;
+    background: #01512F none repeat scroll 0 0;
 }
 
 /*widget-featured-property*/
@@ -1448,7 +1448,7 @@
 
 .widget-search button:hover {
     color: #FFF;
-    background: #95C41F;
+    background: #116B45;
 }
 
 /*widget-categories, widget-archive*/
@@ -1528,7 +1528,7 @@
 .tweets-item > p > a {
     font-weight: 400;
 
-    color: #95C41F;
+    color: #116B45;
 }
 
 /*widget-twitter*/
@@ -1573,7 +1573,7 @@
 .tweet-brief a {
     font-weight: 400;
 
-    color: #95C41F;
+    color: #116B45;
 }
 
 .tweet-brief span {
@@ -1687,7 +1687,7 @@
 
     content: "";
 
-    background: #95C41F none repeat scroll 0 0;
+    background: #116B45 none repeat scroll 0 0;
 }
 
 .blog-details-title-time > h5 {
@@ -1721,7 +1721,7 @@
 
     content: "";
 
-    background: #95C41F none repeat scroll 0 0;
+    background: #116B45 none repeat scroll 0 0;
 }
 
 .blog-quote:after {
@@ -1789,7 +1789,7 @@
 
     content: "";
 
-    background: #95C41F;
+    background: #116B45;
 }
 
 /*footer-address*/
@@ -1905,7 +1905,7 @@
 
     margin-bottom: 40px;
 
-    color: #95C41F;
+    color: #116B45;
 }
 
 .error-content h3 {
@@ -1949,8 +1949,8 @@
 
 .go-home:hover {
     color: #FFF;
-    border: 1px solid #95C41F;
-    background: #95C41F;
+    border: 1px solid #116B45;
+    background: #116B45;
 }
 
 .error-content h3,
@@ -2111,7 +2111,7 @@
 }
 
 .directory-listing-google-map-area .find-home-item .bs-searchbox input {
-    color: #1F223E;
+    color: #01512F;
 }
 
 .map-property > a {
@@ -2127,7 +2127,7 @@
 .map-property h5 {
     margin-bottom: 7px;
 
-    color: #95C41F;
+    color: #116B45;
 }
 
 .map-property p {

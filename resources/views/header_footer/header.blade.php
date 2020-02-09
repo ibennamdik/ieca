@@ -6,7 +6,7 @@
                         <div class="col-lg-3 col-md-6 col-12">
                             <div class="logo">
                                 <a href="{{ route('home')}}" class="logo">
-                                    <img src="{{isset($settings->logo) ? Storage::url($settings->logo) : asset('media/frontend_imgs/logo.png') }}" alt="Logo" width="200px;">
+                                    <img src="{{ isset($settings->logo) ? Storage::url($settings->logo) : asset('/media/frontend_imgs/logo.jpg') }}" alt="Logo" width="100px;">
                                 </a>
                             </div>
                         </div>
@@ -14,7 +14,7 @@
                             <div class="company-info clearfix">
                                 <div class="company-info-item">
                                     <div class="header-icon">
-                                        <img src="asset('media/frontend_imgs/icons/phone.png') }}" alt="">
+                                        <img src="{{ asset('/media/frontend_imgs/icons/phone.png') }}" alt="">
                                     </div>
                                     <div class="header-info">
                                         <h6>{{ $settings->phone1 }}</h6>
@@ -23,7 +23,7 @@
                                 </div>
                                 <div class="company-info-item">
                                     <div class="header-icon">
-                                        <img src="asset('media/frontend_imgs/icons/mail-open.png') }}" alt="">
+                                        <img src="{{ asset('/media/frontend_imgs/icons/mail-open.png') }}" alt="">
                                     </div>
                                     <div class="header-info">
                                         <h6><a href="mailto:info@ieca.com.ng">info@ieca.com.ng</a></h6>
@@ -36,10 +36,10 @@
                             <!-- <div class="header-search clearfix"> -->
                             @guest
                                 @if(Route::has('register'))
-                                <a class="button mt-40" style="color:#4caf50;" href="{{route('register')}}">CREATE YOUR ACCOUNT</a>
+                                <a class="button mt-40" style="color:#4caf50;" href="{{ route('register') }}">CREATE YOUR ACCOUNT</a>
                                 @endif
                                 &nbsp;&nbsp;| &nbsp;&nbsp;
-                                <a class="button mt-40" style="color:#4caf50;" href="{{route('login')}}">LOGIN</a>
+                                <a class="button mt-40" style="color:#4caf50;" href="{{ route('login') }}">LOGIN</a>
                             @else
                                 <a href="#"><span>Hi, {{auth()->user()->name}}</span></a>
                                 &nbsp;&nbsp;|&nbsp;&nbsp;
@@ -64,12 +64,12 @@
                             <div class="col-12">
                                 <div class="sticky-logo">
                                     <a href="index.html">
-                                        <img src="images/logo/logo.png" alt="">
+                                        <img src="{{ isset($settings->logo) ? Storage::url($settings->logo) : asset('/media/frontend_imgs/logo.jpg') }}" alt="Logo">
                                     </a>
                                 </div>
                                 <nav id="primary-menu">
                                     <ul class="main-menu text-center">
-                                        <li><a @guest href="{{ route('welcome')}}" @else href="{{ route('home')}}"
+                                        <li><a @guest href="{{ route('welcome') }}" @else href="{{ route('home') }}"
                                                @endguest class="@if(Route::is('home')) active @endif">Home</a>
                                         </li>
                                         <li><a href="#" class="@if(Route::is('about')) active @endif">About Us</a>
@@ -104,7 +104,7 @@
                         <div class="mobile-menu">
                             <nav id="dropdown">
                                 <ul>
-                                    <li><a @guest href="{{ route('welcome')}}" @else href="{{ route('home')}}"
+                                    <li><a @guest href="{{ route('welcome') }}" @else href="{{ route('home') }}"
                                            @endguest class="@if(Route::is('home')) active @endif">Home</a>
                                     </li>
                                     <li><a href="#" class="@if(Route::is('about')) active @endif">About Us</a>
@@ -113,7 +113,7 @@
                                     </li>
                                     <li><a href="#">Investment</a>
                                         <ul class="drop-menu menu-right">
-                                            <li><a href="{{route('product-grid')}}" class="@if(Route::is('product-grid')) active @endif">Commercial Section</a></li>
+                                            <li><a href="{{ route('product-grid') }}" class="@if(Route::is('product-grid')) active @endif">Commercial Section</a></li>
                                             <li><a href="agent.html">Industrial Section</a></li>
                                             <li><a href="agent-details.html">Residential Section</a></li>
                                         </ul>
@@ -124,7 +124,7 @@
                                     
                                     <!-- <li><a href="login.html">Create Account</a>
                                     </li> -->
-                                    <li><a href="{{route('contact')}}" class="@if(Route::is('contact')) active @endif">Contact</a></li>
+                                    <li><a href="{{ route('contact') }}" class="@if(Route::is('contact')) active @endif">Contact</a></li>
                                 </ul>
                             </nav>
                         </div>

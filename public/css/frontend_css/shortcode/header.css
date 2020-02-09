@@ -55,7 +55,7 @@
     width: 18%;
 }
 .header-search input {
-  border: 1px solid #1f223e;
+  border: 1px solid #000000;
   box-shadow: none;
   color: #303030;
   float: left;
@@ -109,7 +109,7 @@
   margin-left: 55px;
 }
 .main-menu > li > a {
-  color: #1f223e;
+  color: #000000;
   display: block;
   font-size: 16px;
   padding: 15px 0;
@@ -122,12 +122,12 @@
 .main-menu > li:hover > a,
 .drop-menu > li:hover > a,
 .single-mega-item > li:hover > a {
-	color: #95c41f;
+	color: #116B45;
 } 
 /*drop-menu Style*/
 .drop-menu {
   background: #ffffff none repeat scroll 0 0;
-  border-bottom: 4px solid #95c41f;
+  border-bottom: 4px solid #116B45;
   box-shadow: 0 1px 2px rgba(86, 86, 90, 0.5);
   left: 0;
   position: absolute;
@@ -164,7 +164,7 @@
 }*/
 .mega-menu-area {
   background: #ffffff none repeat scroll 0 0;
-  border-bottom: 4px solid #95c41f;
+  border-bottom: 4px solid #116B45;
   box-shadow: 0 1px 2px rgba(86, 86, 90, 0.5);
   left: 0;
   padding-bottom: 10px;
@@ -220,14 +220,14 @@
   position: absolute;
   width: 100%;
   margin: auto;
-  background: rgba(31, 34, 62, 0.9) none repeat scroll 0 0;
+  background: #116B45 none repeat scroll 0 0;
   transition: all 0.3s ease 0s;
 }
 .transparent-header .main-menu > li > a{
   color: #fff;
 }
 .transparent-header .main-menu > li:hover > a {
-  color: #95c41f;
+  color: #116B45;
 }
 .transparent-header.sticky{
 	background: rgba(255, 255, 255, 1);
