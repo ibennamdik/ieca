@@ -522,7 +522,7 @@
 ----------------------------------- */
 
 .features-area {
-    background: #F5F5F5 url("images/others/features.jpg") no-repeat scroll 0 0;
+    background: #F5F5F5 url("/media/frontend_imgs/others/features.jpg") no-repeat scroll 0 0;
 }
 
 .features-info {

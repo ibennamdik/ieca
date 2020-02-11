@@ -33,8 +33,8 @@
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 col-12" style="text-align:center;">
-                            <!-- <div class="header-search clearfix"> -->
-                            @guest
+                            <div class="header-search clearfix">
+                            <!-- @guest
                                 @if(Route::has('register'))
                                 <a class="button mt-40" style="color:#4caf50;" href="{{ route('register') }}">CREATE YOUR ACCOUNT</a>
                                 @endif
@@ -51,8 +51,11 @@
                                 <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                     @csrf
                                 </form>
-                            @endguest
-                            <!-- </div> -->
+                            @endguest -->
+                            <a class="button mt-40" style="color:#4caf50;" href="#">CREATE YOUR ACCOUNT</a>
+                                &nbsp;&nbsp;| &nbsp;&nbsp;
+                            <a class="button mt-40" style="color:#4caf50;" href="#">LOGIN</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -72,20 +75,15 @@
                                         <li><a @guest href="{{ route('welcome') }}" @else href="{{ route('home') }}"
                                                @endguest class="@if(Route::is('home')) active @endif">Home</a>
                                         </li>
-                                        <li><a href="#" class="@if(Route::is('about')) active @endif">About Us</a>
+                                        <li><a href="{{ route('about') }}" class="@if(Route::is('about')) active @endif">About Us</a>
                                         </li>
-                                        <li><a href="service.html">Service</a>
-                                        </li>
-                                        <li><a href="#">Investment</a>
-                                            <ul class="drop-menu menu-right">
-                                                <li><a href="about.html">Commercial Section</a></li>
-                                                <li><a href="agent.html">Industrial Section</a></li>
-                                                <li><a href="agent-details.html">Residential Section</a></li>
-                                            </ul>
+                                        <!-- <li><a href="{{ route('services') }}">Service</a>
+                                        </li> -->
+                                        <li><a href="{{ route('investment') }}">Investment</a>
                                         </li>
                                         <!-- <li><a href="login.html">Create Account</a>
                                         </li> -->
-                                        <li><a href="{{route('contact')}}" class="@if(Route::is('contact')) active @endif">Contact</a></li>
+                                        <li><a href="#footer" class="@if(Route::is('contact')) active @endif">Contact</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -107,16 +105,11 @@
                                     <li><a @guest href="{{ route('welcome') }}" @else href="{{ route('home') }}"
                                            @endguest class="@if(Route::is('home')) active @endif">Home</a>
                                     </li>
-                                    <li><a href="#" class="@if(Route::is('about')) active @endif">About Us</a>
+                                    <li><a href="{{ route('about') }}" class="@if(Route::is('about')) active @endif">About Us</a>
                                     </li>
-                                    <li><a href="service.html">Service</a>
-                                    </li>
-                                    <li><a href="#">Investment</a>
-                                        <ul class="drop-menu menu-right">
-                                            <li><a href="{{ route('product-grid') }}" class="@if(Route::is('product-grid')) active @endif">Commercial Section</a></li>
-                                            <li><a href="agent.html">Industrial Section</a></li>
-                                            <li><a href="agent-details.html">Residential Section</a></li>
-                                        </ul>
+                                    <!-- <li><a href="{{ route('services') }}">Service</a>
+                                    </li> -->
+                                    <li><a href="{{ route('investment') }}">Investment</a>
                                     </li>
 
                                     <!-- <li><a href="{{route('lesson')}}" class="@if(Route::is('lesson')) active @endif">News</a>
@@ -124,7 +117,7 @@
                                     
                                     <!-- <li><a href="login.html">Create Account</a>
                                     </li> -->
-                                    <li><a href="{{ route('contact') }}" class="@if(Route::is('contact')) active @endif">Contact</a></li>
+                                    <li><a href="#footer" class="@if(Route::is('contact')) active @endif">Contact</a></li>
                                 </ul>
                             </nav>
                         </div>

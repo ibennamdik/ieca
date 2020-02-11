@@ -25,7 +25,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth')->except(['welcome', 'about', 'contact', 'lesson', 'search', 'lessonDetails', 'privacyPolicy', 'termsOfUse', 'services', 'productDetails', 'productGrid']);
+        $this->middleware('auth')->except(['welcome', 'about', 'contact', 'investment', 'lesson', 'search', 'lessonDetails', 'privacyPolicy', 'termsOfUse', 'services', 'productDetails', 'productGrid']);
         $this->middleware('permission:member dashboard', ['only' => ['dashboard']]);
     }
 
@@ -101,6 +101,11 @@ class HomeController extends Controller
         return view('frontend.lesson', compact('categories', 'posts'));
     }
 
+    public function investment()
+    {
+        return view('frontend.investment');
+    }
+
     public function lessonDetails($id)
     {
         $post = Post::find($id);
@@ -122,12 +127,7 @@ class HomeController extends Controller
 
     public function productGrid()
     {
-        $widths = Width::all();
-        $rims = Rim::all();
-        $profiles = TyreProfile::all();
-        $items = Product::where('visibility', true)->paginate(8);
-
-        return view('frontend.product-grid', compact('widths', 'rims', 'profiles', 'items'));
+        return view('frontend.product-grid');
     }
 
     public function productList()
@@ -176,17 +176,6 @@ class HomeController extends Controller
 
     public function productDetails($id)
     {
-        $product = Product::find($id);
-        $categories = Category::all();
-        $related = Product::where('category_id', $product->category_id)->where('visibility', true)->take(3)->get();
-        try {
-
-
-            $related = Product::where('category_id', $product->category_id)->where('visibility', true)->get()->random(3);
-
-        } catch (\Exception $e) {
-
-        }
-        return view('frontend.product_details', compact('product', 'categories', 'related'));
+        return view('frontend.product_details');
     }
 }

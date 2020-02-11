@@ -176,6 +176,15 @@ Route::get('/about', 'HomeController@about')->name('about');
 
 Route::get('/contact', 'HomeController@contact')->name('contact');
 
+Route::get('/services', 'HomeController@services')->name('services');
+
+Route::get('/investment', 'HomeController@investment')->name('investment');
+
+Route::get('/board-details', 'HomeController@boardDetails')->name('board.details');
+
+
+
+
 Route::get('/lesson', 'HomeController@lesson')->name('lesson');
 
 Route::get('/terms', 'HomeController@termsOfUse')->name('terms');
@@ -214,29 +223,29 @@ Route::prefix('account')->group(function () {
 
 });
 
-Route::prefix('cart')->group(function() {
+// Route::prefix('cart')->group(function() {
 
-    Route::name('cart.')->group(function() {
+//     Route::name('cart.')->group(function() {
 
-        Route::get('/items', 'CartController@index')->name('index');
+//         Route::get('/items', 'CartController@index')->name('index');
 
-        Route::get('/add/{product}', 'CartController@add')->name('add');
+//         Route::get('/add/{product}', 'CartController@add')->name('add');
 
-        Route::post('/buy/{product}', 'CartController@buy')->name('buy');
+//         Route::post('/buy/{product}', 'CartController@buy')->name('buy');
 
-        Route::post('/adds/{product}', 'CartController@addQty')->name('addQty');
+//         Route::post('/adds/{product}', 'CartController@addQty')->name('addQty');
 
-        Route::get('/remove/{id}', 'CartController@remove')->name('remove');
+//         Route::get('/remove/{id}', 'CartController@remove')->name('remove');
 
-        Route::patch('/update/{id}', 'CartController@update')->name('update');
+//         Route::patch('/update/{id}', 'CartController@update')->name('update');
 
-        Route::get('/checkout', 'CartController@checkout')->name('checkout');
+//         Route::get('/checkout', 'CartController@checkout')->name('checkout');
 
-        Route::get('/checkout/delivery/{type}', 'CartController@deliveryMethod')->name('deliveryMethod');
+//         Route::get('/checkout/delivery/{type}', 'CartController@deliveryMethod')->name('deliveryMethod');
 
-        Route::post('/profile-update', 'CartController@updateAddress')->name('updateAddress');
-    });
-});
+//         Route::post('/profile-update', 'CartController@updateAddress')->name('updateAddress');
+//     });
+// });
 
 Route::resource('subscription', 'SubscriptionController');
 

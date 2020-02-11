@@ -1,47 +1,127 @@
 @extends('layouts.simple')
 
 @section('content')
-<div id="wrap-body" class="p-t-lg-30">
-        <div class="container">
-            <div class="wrap-body-inner">
-                <!-- Breadcrumb-->
-                <div class="hidden-xs">
+
+            <!-- ABOUT I.E.C.A AREA START -->
+            <div class="about-I.E.C.A-area ptb-115">
+                <div class="container">
                     <div class="row">
-                        <div class="col-lg-6">
-                            <ul class="ht-breadcrumb pull-left">
-                                <li class="home-act"><a href="#"><i class="fa fa-home"></i></a></li>
-                                <li class="active">Services</li>
-                            </ul>
+                        <div class="col-md-6 col-12">
+                            <div class="section-title mb-30">
+                                <h3>KNOW ABOUT </h3>
+                                <h2>OUR SERVICES</h2>
+                            </div>
+                            <div class="about-I.E.C.A-info">
+                                <p><span data-placement="top" data-toggle="tooltip" data-original-title="The name you can trust" class="tooltip-content">I.E.C.A</span> is the best theme for elit, sed do
+                                    eiusmod tempor dolor sit amet, conse ctetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et lorna aliquatd minim veniam, quis nostrud exercitation oris
+                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolo.</p>
+                                <div class="author-quote">
+                                    <p>Lorem is a dummy text do eiusmod tempor dolor sit amet, onsectetur adip iscing
+                                        elit, sed do eiusmod tempor incididunt ut labore et lorna aliqua Ut enim
+                                        onsectetur </p>
+                                    <p>Lorem is a dummy text do eiusmod tempor dolor sit amet, onsectetur adip iscing
+                                        elit, sed do eiusmod tempor incididunt ut labore et lorna aliqua Ut enim
+                                        onsectetur </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="about-image">
+                                <img src="{{ asset('/media/frontend_imgs/about/4.jpg') }}" alt="About Image">
+                            </div>
                         </div>
                     </div>
                 </div>
-                <!-- Contact -->
-                <section class="block-contact m-t-lg-30 m-t-xs-0 p-b-lg-50">
-                    <div class="">
-                        <div class="row">
-                            <!-- Contact info -->
-                            <div class="col-sm-12 col-md-12 col-lg-12 m-b-xs-50">
-                                <div class="heading">
-                                    <h3>Services</h3>
+            </div>
+            <!-- ABOUT I.E.C.A AREA END -->
+
+            <!-- SERVICES AREA START -->
+            <div class="services-area pb-60">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="section-title-2 text-center">
+                                <h2>OUR SERVICES</h2>
+                                <p>I.E.C.A is the best theme for elit, sed do eiusmod tempor dolor sit amet, conse
+                                    ctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et lorna aliquatd
+                                    minim veniam, quis nostrud</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="service-carousel">
+                                <!-- service-item -->
+                                <div class="col">
+                                    <div class="service-item">
+                                        <div class="service-item-image">
+                                            <a href="service-details.html"><img src="{{ asset('/media/frontend_imgs/service/1.jpg') }}" alt=""></a>
+                                        </div>
+                                        <div class="service-item-info">
+                                            <h5><a href="service-details.html">Sale Property</a></h5>
+                                            <p>Property sale best theme for litdo eiusmod tempor dolor sit amet, conse
+                                                tetur adiping eiusmo</p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="contact-info p-lg-30 p-xs-15 bg-gray-fa bg1-gray-2">
-                                    <div class="content">
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod temp incidunt ut labore et dolore magna aliqua uat enim ad minim veniama quis nostrud ullamco lab oris nisi ut aliqu.</p>
-                                        <ul class="list-default">
-                                            <li><i class="fa fa-clock-o"></i>123 Zarmaganda, Jos, Nigeria</li>
-                                            <li><i class="fa fa-phone"></i>0123-456-789</li>
-                                            <li><i class="fa fa-envelope-o"></i>support@IECA.com</li>
-                                            <li><i class="fa fa-globe"></i>www.htmlcs.com</li>
-                                        </ul>
+                                <!-- service-item -->
+                                <div class="col">
+                                    <div class="service-item">
+                                        <div class="service-item-image">
+                                            <a href="service-details.html"><img src="{{ asset('/media/frontend_imgs/service/2.jpg') }}" alt=""></a>
+                                        </div>
+                                        <div class="service-item-info">
+                                            <h5><a href="service-details.html">Buy Property</a></h5>
+                                            <p>Property sale best theme for litdo eiusmod tempor dolor sit amet, conse
+                                                tetur adiping eiusmo</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- service-item -->
+                                <div class="col">
+                                    <div class="service-item">
+                                        <div class="service-item-image">
+                                            <a href="service-details.html"><img src="{{ asset('/media/frontend_imgs/service/3.jpg') }}" alt=""></a>
+                                        </div>
+                                        <div class="service-item-info">
+                                            <h5><a href="service-details.html">Rent Property</a></h5>
+                                            <p>Property sale best theme for litdo eiusmod tempor dolor sit amet, conse
+                                                tetur adiping eiusmo</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- service-item -->
+                                <div class="col">
+                                    <div class="service-item">
+                                        <div class="service-item-image">
+                                            <a href="service-details.html"><img src="{{ asset('/media/frontend_imgs/service/4.jpg') }}" alt=""></a>
+                                        </div>
+                                        <div class="service-item-info">
+                                            <h5><a href="service-details.html">Property Management</a></h5>
+                                            <p>Property sale best theme for litdo eiusmod tempor dolor sit amet, conse
+                                                tetur adiping eiusmo</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- service-item -->
+                                <div class="col">
+                                    <div class="service-item">
+                                        <div class="service-item-image">
+                                            <a href="service-details.html"><img src="{{ asset('/media/frontend_imgs/service/4.jpg') }}" alt=""></a>
+                                        </div>
+                                        <div class="service-item-info">
+                                            <h5><a href="service-details.html">Sale Property</a></h5>
+                                            <p>Property sale best theme for litdo eiusmod tempor dolor sit amet, conse
+                                                tetur adiping eiusmo</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- Contact form -->
-                            
                         </div>
                     </div>
-                </section>
+                </div>
             </div>
-        </div>
-    </div>
+            <!-- SERVICES AREA END -->
+
 @endsection

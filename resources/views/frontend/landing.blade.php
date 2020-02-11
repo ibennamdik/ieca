@@ -5,9 +5,9 @@
         <div class="slider-1 pos-relative slider-overlay">
             <div class="bend niceties preview-1">
                 <div id="ensign-nivoslider-3" class="slides">
-                    <img src="{{ asset('media/frontend_imgs/slider/1.jpg') }}" alt="" title="#slider-direction-1" />
-                    <img src="{{ asset('media/frontend_imgs/slider/1.jpg') }}" alt="" title="#slider-direction-2" />
-                    <img src="{{ asset('media/frontend_imgs/slider/1.jpg') }}" alt="" title="#slider-direction-3" />
+                    <img src="{{ asset('media/frontend_imgs/slider/1.png') }}" alt="" title="#slider-direction-1" />
+                    <img src="{{ asset('media/frontend_imgs/slider/2.png') }}" alt="" title="#slider-direction-2" />
+                    <img src="{{ asset('media/frontend_imgs/slider/3.png') }}" alt="" title="#slider-direction-3" />
                 </div>
                 <!-- direction 1 -->
                 <div id="slider-direction-1" class="slider-direction">
@@ -76,7 +76,7 @@
                     <div class="row">
                         <div class="col-md-6 col-12">
                             <div class="section-title mb-30">
-                                <h3>SOME WORD </h3>
+                                <h3></h3>
                                 <h2>ABOUT I.E.C.A</h2>
                             </div>
                             <div class="about-I.E.C.A-info">
@@ -87,12 +87,13 @@
 
                                 <p>International Economic City, Abuja, (IECA), will provide large scale commercial, industrial, residential and recreational facilities to aid economic 
                                     and social activities for the benefit of Nigeria and international businesses. The vision behind the International Economic City, Abuja is to ensure that, in concrete terms, none of the numerous business, jobs and wealth creation 
-                                    opportunities offered by AFCFTA is not lost to Nigeria and her economy.</p>
+                                    opportunities offered by AFCFTA is not lost to Nigeria and her economy.
+                                    <a class="slider-button mt-40" href="{{ route('about') }}">Read More</a></p>
                             </div>
                         </div>
                         <div class="col-md-6 col-12">
                             <div class="about-image">
-                                <a href="about.html"><img src="{{ asset('/media/frontend_imgs/about/1.jpg') }}" alt=""></a>
+                                <a href="about.html"><img src="{{ asset('/media/frontend_imgs/about/1.jpeg') }}" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -151,7 +152,7 @@
                                 <div class="flat-item">
                                     <div class="flat-item-image">
                                         <!-- <span class="for-sale">&nbsp;</span> -->
-                                        <a href="properties-details.html"><img src="{{ asset('/media/frontend_imgs/flat/1.jpg') }}" alt=""></a>
+                                        <a href="properties-details.html"><img src="{{ asset('/media/frontend_imgs/flat/residential.png') }}" alt=""></a>
                                         <div class="flat-link">
                                             <a href="properties-details.html">More Details</a>
                                         </div>
@@ -181,7 +182,7 @@
                                 <div class="flat-item">
                                     <div class="flat-item-image">
                                         <!-- <span class="for-sale">&nbsp;</span> -->
-                                        <a href="properties-details.html"><img src="{{ asset('/media/frontend_imgs/flat/2.jpg') }}" alt=""></a>
+                                        <a href="properties-details.html"><img src="{{ asset('/media/frontend_imgs/flat/industrial.png') }}" alt=""></a>
                                         <div class="flat-link">
                                             <a href="properties-details.html">More Details</a>
                                         </div>
@@ -212,7 +213,7 @@
                                 <div class="flat-item">
                                     <div class="flat-item-image">
                                         <!-- <span class="for-sale">&nbsp;</span> -->
-                                        <a href="properties-details.html"><img src="{{ asset('/media/frontend_imgs/flat/3.jpg') }}" alt=""></a>
+                                        <a href="properties-details.html"><img src="{{ asset('/media/frontend_imgs/flat/commercial.png') }}" alt=""></a>
                                         <div class="flat-link">
                                             <a href="properties-details.html">More Details</a>
                                         </div>
@@ -243,59 +244,38 @@
             </div>
             <!-- FEATURED FLAT AREA END -->
 
-            <!-- FEATURES AREA START -->
-            <div class="features-area fix">
-                <div class="container-fluid">
+            <!-- DEVELOPERS AND ENGINEERS AREA START -->
+            <div class="testimonial-area pb-50">
+                <div class="container">
                     <div class="row">
-                        <div class="col-lg-7 offset-lg-5">
-                            <div class="features-info bg-gray">
-                                <div class="section-title mb-30">
-                                    <h3>THE</h3>
-                                    <h2 class="h1">COMPANY</h2>
-                                </div>
-                                <div class="features-desc">
-                                    <p>The name <span data-placement="top" data-toggle="tooltip" data-original-title="The name you can trust" class="tooltip-content">International Economic City Ltd</span> is a limited liability company 
-                                        registered as a subsidiary of ASSIGNIA INFRASTRUCTURES LTD under the laws of Nigeria. However, shares in the company shall be divested and transferred to investors 
-                                        as soon as investors are assembled. The company shall be directly responsible for key areas of projects / businesses in the IECA. The land area dedicated for the following 
-                                        projects shall be legally assigned to the International Economic City Ltd in a build, operate and own ( BOO) model, namely:</p>
-                                </div>
-                                <div class="features-include">
-                                    <div class="row">
-                                        <div class="col-xl-4 col-lg-6 col-md-4">
-                                            <div class="features-include-list">
-                                                <h6><i class="fa fa-industry" aria-hidden="true"></i> Power Plant</h6>
-                                                <p>Sitting on 10 Hectares of land</p>
+                        <div class="col-12">
+                            <div class="testimonial">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="section-title mb-30">
+                                            <h3>Our,</h3>
+                                            <h2 class="h1">Company</h2>
+                                        </div>
+                                        <div class="testimonial-carousel dots-right-btm">
+                                            <!-- testimonial-item -->
+                                            <div class="testimonial-item">
+                                                <div class="testimonial-brief">
+                                                <p>The name <span data-placement="top" data-toggle="tooltip" data-original-title="The name you can trust" class="tooltip-content">International Economic City Ltd</span> is a limited liability company 
+                                                    registered as a subsidiary of ASSIGNIA INFRASTRUCTURES LTD under the laws of Nigeria. However, shares in the company shall be divested and transferred to investors 
+                                                    as soon as investors are assembled. The company shall be directly responsible for key areas of projects / businesses in the IECA. The land area dedicated for the following 
+                                                    projects shall be legally assigned to the International Economic City Ltd in a build, operate and own ( BOO) model, namely:</p>
+                                                <p>
+                                                    <b>Power plant, Sewage management/biogas plant, Water system management, International conference and Trade exhibition center, Five star hotel, World class Hospital, 200 plots of land to build a gated community for the high income earners</b> and each 
+                                                    plot sitting on land area measuring  between 2,500 square meters to 1 Hectare  for luxurious Accommodations , upscale / high-rise apartments and residences.
+                                                </p>
+                                                </div>
+                                                <!-- <h6>Zasica Luci, <span>CEO</span></h6> -->
                                             </div>
                                         </div>
-                                        <div class="col-xl-4 col-lg-6 col-md-4">
-                                            <div class="features-include-list">
-                                                <h6><i class="fa fa-industry" aria-hidden="true"></i> Sewage Plant</h6>
-                                                <p>Sitting on 10 Hectares of land</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-4 col-lg-6 col-md-4">
-                                            <div class="features-include-list">
-                                                <h6><i class="fa fa-bed" aria-hidden="true"></i> 5 Star Hotel</h6>
-                                                <p>Sitting on 5 Hectares of land</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-4 col-lg-6 col-md-4">
-                                            <div class="features-include-list">
-                                                <h6><i class="fa fa-hospital-o" aria-hidden="true"></i> World Class Hospital</h6>
-                                                <p>Sitting on 7 Hectares of land</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-4 col-lg-6 col-md-4">
-                                            <div class="features-include-list">
-                                                <h6><i class="fa fa-home" aria-hidden="true"></i> Accomodations</h6>
-                                                <p>200 Plots for Luxurious, apartments and residences</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-4 col-lg-6 col-md-4">
-                                            <div class="features-include-list">
-                                                <h6><i class="fa fa-handshake-o" aria-hidden="true"></i> Conference Centers</h6>
-                                                <p>Sitting on 7 Hectares of land</p>
-                                            </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="testimonial-image">
+                                            <img src="{{ asset('/media/frontend_imgs/others/company.png') }}" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -304,7 +284,7 @@
                     </div>
                 </div>
             </div>
-            <!-- FEATURES AREA END -->
+            <!-- DEVELOPERS AND ENGINEERS AREA END -->
 
             <!-- OUR BOARD AREA START -->
             <div class="our-agents-area pt-115 pb-55">
@@ -327,7 +307,7 @@
                                     <div class="col-12">
                                         <div class="single-agent">
                                             <div class="agent-image">
-                                                <img src="{{ asset('/media/frontend_imgs/agents/1.jpg') }}" alt="">
+                                                <img src="{{ asset('/media/frontend_imgs/agents/image.jpg') }}" alt="">
                                             </div>
                                             <div class="agent-info">
                                                 <div class="agent-name">
@@ -359,7 +339,7 @@
                                     <div class="col-12">
                                         <div class="single-agent">
                                             <div class="agent-image">
-                                                <img src="{{ asset('/media/frontend_imgs/agents/2.jpg') }}" alt="">
+                                                <img src="{{ asset('/media/frontend_imgs/agents/image.jpg') }}" alt="">
                                             </div>
                                             <div class="agent-info">
                                                 <div class="agent-name">
@@ -391,7 +371,7 @@
                                     <div class="col-12">
                                         <div class="single-agent">
                                             <div class="agent-image">
-                                                <img src="{{ asset('/media/frontend_imgs/agents/3.jpg') }}" alt="">
+                                                <img src="{{ asset('/media/frontend_imgs/agents/image.jpg') }}" alt="">
                                             </div>
                                             <div class="agent-info">
                                                 <div class="agent-name">
@@ -423,7 +403,7 @@
                                     <div class="col-12">
                                         <div class="single-agent">
                                             <div class="agent-image">
-                                                <img src="{{ asset('/media/frontend_imgs/agents/4.jpg') }}" alt="">
+                                                <img src="{{ asset('/media/frontend_imgs/agents/image.jpg') }}" alt="">
                                             </div>
                                             <div class="agent-info">
                                                 <div class="agent-name">
@@ -459,77 +439,6 @@
             </div>
             <!-- OUR BOARD AREA END -->
 
-            <!-- TESTIMONIAL AREA START -->
-            <div class="testimonial-area pb-115">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="testimonial">
-                                <div class="row">
-                                    <div class="col-lg-8 col-md-9">
-                                        <div class="section-title mb-30">
-                                            <h3>SOME OF OUR</h3>
-                                            <h2 class="h1">HAPPY CLIENTS</h2>
-                                        </div>
-                                        <div class="testimonial-carousel dots-right-btm">
-                                            <!-- testimonial-item -->
-                                            <div class="testimonial-item">
-                                                <div class="testimonial-brief">
-                                                    <p><span data-placement="top" data-toggle="tooltip" data-original-title="The name you can trust" class="tooltip-content">I.E.C.A</span> is the best theme for
-                                                        elit, sed do eiusmod tempor dolor sit amet, conse ctetur
-                                                        adipiscing elit, ed do eiusmod tempor incididunt ut labore et
-                                                        lorna aliquatd minim veniam, quis nostrud exercitation oris nisi
-                                                        ut aliquip ex ea commodo equat. Duis aute irure dolo. liquatd
-                                                        minim veniam, quis nostrud exercitation oris nisi ut aliquip ex
-                                                        ea commodo equat. Duis aute irure dolo uis nostrud exercitation
-                                                    </p>
-                                                </div>
-                                                <h6>Zasica Luci, <span>CEO</span></h6>
-                                            </div>
-                                            <!-- testimonial-item -->
-                                            <div class="testimonial-item">
-                                                <div class="testimonial-brief">
-                                                    <p><span data-placement="top" data-toggle="tooltip" data-original-title="The name you can trust" class="tooltip-content">I.E.C.A</span> is the best theme for
-                                                        elit, sed do eiusmod tempor dolor sit amet, conse ctetur
-                                                        adipiscing elit, ed do eiusmod tempor incididunt ut labore et
-                                                        lorna aliquatd minim veniam, quis nostrud exercitation oris nisi
-                                                        ut aliquip ex ea commodo equat. Duis aute irure dolo. liquatd
-                                                        minim veniam, quis nostrud exercitation oris nisi ut aliquip ex
-                                                        ea commodo equat. Duis aute irure dolo uis nostrud exercitation
-                                                    </p>
-                                                </div>
-                                                <h6>Zasica Luci, <span>CEO</span></h6>
-                                            </div>
-                                            <!-- testimonial-item -->
-                                            <div class="testimonial-item">
-                                                <div class="testimonial-brief">
-                                                    <p><span data-placement="top" data-toggle="tooltip" data-original-title="The name you can trust" class="tooltip-content">I.E.C.A</span> is the best theme for
-                                                        elit, sed do eiusmod tempor dolor sit amet, conse ctetur
-                                                        adipiscing elit, ed do eiusmod tempor incididunt ut labore et
-                                                        lorna aliquatd minim veniam, quis nostrud exercitation oris nisi
-                                                        ut aliquip ex ea commodo equat. Duis aute irure dolo. liquatd
-                                                        minim veniam, quis nostrud exercitation oris nisi ut aliquip ex
-                                                        ea commodo equat. Duis aute irure dolo uis nostrud exercitation
-                                                    </p>
-                                                </div>
-                                                <h6>Zasica Luci, <span>CEO</span></h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-3">
-                                        <div class="testimonial-image">
-                                            <img src="{{ asset('/media/frontend_imgs/frontend_imgs/others/testimonial.jpg') }}" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- TESTIMONIAL AREA END -->
-
-
             <!-- DEVELOPERS AND ENGINEERS AREA START -->
             <div class="testimonial-area pb-115">
                 <div class="container">
@@ -559,7 +468,7 @@
                                     </div>
                                     <div class="col-lg-4 col-md-3">
                                         <div class="testimonial-image">
-                                            <img src="{{ asset('/media/frontend_imgs/others/testimonial.jpg') }}" alt="">
+                                            <img src="{{ asset('/media/frontend_imgs/others/testimonial.png') }}" alt="">
                                         </div>
                                     </div>
                                 </div>

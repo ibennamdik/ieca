@@ -159,9 +159,9 @@
 
     text-transform: uppercase;
 
-    color: #FFF;
-    border: 1px solid #FFF;
-    background: transparent;
+    color: #116B45;
+    border: 1px solid #116B45;
+    background: solid;
 }
 
 .slider-button:focus {
