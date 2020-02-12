@@ -152,9 +152,9 @@
                                 <div class="flat-item">
                                     <div class="flat-item-image">
                                         <!-- <span class="for-sale">&nbsp;</span> -->
-                                        <a href="properties-details.html"><img src="{{ asset('/media/frontend_imgs/flat/residential.png') }}" alt=""></a>
+                                        <a href="#"><img src="{{ asset('/media/frontend_imgs/flat/residential.png') }}" alt=""></a>
                                         <div class="flat-link">
-                                            <a href="properties-details.html">More Details</a>
+                                            <a href="#">More Details</a>
                                         </div>
                                         <ul class="flat-desc">
                                             <li>
@@ -169,7 +169,7 @@
                                     </div>
                                     <div class="flat-item-info">
                                         <div class="flat-title-price">
-                                            <h5><a href="properties-details.html">Residential Plots</a></h5>
+                                            <h5><a href="#">Residential Plots</a></h5>
                                             <span class="price"></span>
                                         </div>
                                         <p>3, 4 and 5 Detached and semi detatched duplexes for Low and Medium Earners, 
@@ -182,9 +182,9 @@
                                 <div class="flat-item">
                                     <div class="flat-item-image">
                                         <!-- <span class="for-sale">&nbsp;</span> -->
-                                        <a href="properties-details.html"><img src="{{ asset('/media/frontend_imgs/flat/industrial.png') }}" alt=""></a>
+                                        <a href="#"><img src="{{ asset('/media/frontend_imgs/flat/industrial.png') }}" alt=""></a>
                                         <div class="flat-link">
-                                            <a href="properties-details.html">More Details</a>
+                                            <a href="#">More Details</a>
                                         </div>
                                         <ul class="flat-desc">
                                             <li>
@@ -200,7 +200,7 @@
                                     </div>
                                     <div class="flat-item-info">
                                         <div class="flat-title-price">
-                                            <h5><a href="properties-details.html">Industrial Parks</a></h5>
+                                            <h5><a href="#">Industrial Parks</a></h5>
                                             <span class="price"></span>
                                         </div>
                                         <p>Over 12 industrial parks with a cluster of 100 medium and 
@@ -213,9 +213,9 @@
                                 <div class="flat-item">
                                     <div class="flat-item-image">
                                         <!-- <span class="for-sale">&nbsp;</span> -->
-                                        <a href="properties-details.html"><img src="{{ asset('/media/frontend_imgs/flat/commercial.png') }}" alt=""></a>
+                                        <a href="#"><img src="{{ asset('/media/frontend_imgs/flat/commercial.png') }}" alt=""></a>
                                         <div class="flat-link">
-                                            <a href="properties-details.html">More Details</a>
+                                            <a href="#">More Details</a>
                                         </div>
                                         <ul class="flat-desc">
                                             <li>
@@ -230,7 +230,7 @@
                                     </div>
                                     <div class="flat-item-info">
                                         <div class="flat-title-price">
-                                            <h5><a href="properties-details.html">Commercial Plots</a></h5>
+                                            <h5><a href="#">Commercial Plots</a></h5>
                                             <span class="price"></span>
                                         </div>
                                         <p>Workshops, Market stalls, etertainment, schools, hospitals, hotels, Banks, Warehouses, 
@@ -301,134 +301,89 @@
                     </div>
                     <div class="our-agents">
                         <div class="row">
-                            <div class="col-12">
-                                <div class="agents-carousel">
-                                    <!-- single-agent -->
-                                    <div class="col-12">
-                                        <div class="single-agent">
-                                            <div class="agent-image">
-                                                <img src="{{ asset('/media/frontend_imgs/agents/image.jpg') }}" alt="">
-                                            </div>
-                                            <div class="agent-info">
-                                                <div class="agent-name">
-                                                    <h5><a href="agent-details.html">Chief Michael Nkwocha</a></h5>
-                                                    <p>&nbsp;</p>
-                                                </div>
-                                            </div>
-                                            <div class="agent-info-hover">
-                                                <!-- <div class="agent-name">
-                                                    <h5><a href="agent-details.html">Chief Michael Nkwocha</a></h5>
-                                                    <p>Real Estate Agent</p>
-                                                </div> -->
-                                                <ul class="agent-address">
-                                                    <li><img src="{{ asset('/media/frontend_imgs/icons/phone-2.png') }}" alt="">+1245 785 659 </li>
-                                                    <li><img src="{{ asset('/media/frontend_imgs/icons/mail-close.png') }}" alt="">mnkwocha@ieca.com.ng
-                                                    </li>
-                                                </ul>
-                                                <ul class="social-media">
-                                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                                    </li>
-                                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                                                </ul>
-                                            </div>
+                           <!-- service-item -->
+                           <div class="col-lg-3 md-12">
+                                <div class="single-agent">
+                                    <div class="agent-image">
+                                        <img src="{{ asset('/media/frontend_imgs/agents/image.jpg') }}" alt="">
+                                    </div>
+                                    <div class="agent-info">
+                                        <div class="agent-name">
+                                            <p>&nbsp;</p>
+                                            <h5><a href="#">Chief Michael Nkwocha</a></h5>
+                                            <p>&nbsp;</p>
+                                            <a class="slider-button mt-10" href="#">BRIEF BIO</a>
                                         </div>
                                     </div>
-                                    <!-- single-agent -->
-                                    <div class="col-12">
-                                        <div class="single-agent">
-                                            <div class="agent-image">
-                                                <img src="{{ asset('/media/frontend_imgs/agents/image.jpg') }}" alt="">
-                                            </div>
-                                            <div class="agent-info">
-                                                <div class="agent-name">
-                                                    <h5><a href="agent-details.html">Engineer Auwal Bununu</a></h5>
-                                                    <p>&nbsp;</p>
-                                                </div>
-                                            </div>
-                                            <div class="agent-info-hover">
-                                                <!-- <div class="agent-name">
-                                                    <h5><a href="agent-details.html">Engineer Auwal Bununu</a></h5>
-                                                    <p>Real Estate Broker</p>
-                                                </div> -->
-                                                <ul class="agent-address">
-                                                    <li><img src="{{ asset('/media/frontend_imgs/icons/phone-2.png') }}" alt="">+1245 785 659 </li>
-                                                    <li><img src="{{ asset('/media/frontend_imgs/icons/mail-close.png') }}" alt="">abubunu@ieca.com.ng
-                                                    </li>
-                                                </ul>
-                                                <ul class="social-media">
-                                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                                    </li>
-                                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                                                </ul>
-                                            </div>
+                                    <div class="agent-info-hover text-center">
+                                        <div>
+                                            <h5><a href="#">Chief Michael Nkwocha</a></h5>
+                                            <a class="slider-button mt-40" href="#">BRIEF BIO</a>
                                         </div>
                                     </div>
-                                    <!-- single-agent -->
-                                    <div class="col-12">
-                                        <div class="single-agent">
-                                            <div class="agent-image">
-                                                <img src="{{ asset('/media/frontend_imgs/agents/image.jpg') }}" alt="">
-                                            </div>
-                                            <div class="agent-info">
-                                                <div class="agent-name">
-                                                    <h5><a href="agent-details.html">Barrister Ibrahim Hussein Abdullahi</a></h5>
-                                                    <!-- <p>&nbsp;</p> -->
-                                                </div>
-                                            </div>
-                                            <div class="agent-info-hover">
-                                                <!-- <div class="agent-name">
-                                                    <h5><a href="agent-details.html">Barrister Ibrahim Hussein Abdullahi</a></h5>
-                                                    <p>Real Estate Broker</p>
-                                                </div> -->
-                                                <ul class="agent-address">
-                                                    <li><img src="{{ asset('/media/frontend_imgs/icons/phone-2.png') }}" alt="">+1245 785 659 </li>
-                                                    <li><img src="{{ asset('/media/frontend_imgs/icons/mail-close.png') }}" alt="">ihabdulahi@ieca.com.ng
-                                                    </li>
-                                                </ul>
-                                                <ul class="social-media">
-                                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                                    </li>
-                                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                                                </ul>
-                                            </div>
+                                </div>
+                            </div>
+                            <!-- service-item -->
+                            <div class="col-lg-3 md-12">
+                                <div class="single-agent">
+                                    <div class="agent-image">
+                                        <img src="{{ asset('/media/frontend_imgs/agents/image.jpg') }}" alt="">
+                                    </div>
+                                    <div class="agent-info">
+                                        <div class="agent-name">
+                                            <p>&nbsp;</p>
+                                            <h5><a href="#">Engineer Auwal Bununu</a></h5>
+                                            <p>&nbsp;</p>
+                                            <a class="slider-button mt-10" href="#">BRIEF BIO</a>
                                         </div>
                                     </div>
-                                    <!-- single-agent -->
-                                    <div class="col-12">
-                                        <div class="single-agent">
-                                            <div class="agent-image">
-                                                <img src="{{ asset('/media/frontend_imgs/agents/image.jpg') }}" alt="">
-                                            </div>
-                                            <div class="agent-info">
-                                                <div class="agent-name">
-                                                    <h5><a href="agent-details.html">&nbsp;</a></h5>
-                                                    <p>&nbsp;</p>
-                                                </div>
-                                            </div>
-                                            <div class="agent-info-hover">
-                                                <!-- <div class="agent-name">
-                                                    <h5><a href="agent-details.html">Sarmin Tabassum</a></h5>
-                                                    <p>Real Estate Agent</p>
-                                                </div> -->
-                                                <ul class="agent-address">
-                                                    <li><img src="{{ asset('/media/frontend_imgs/icons/phone-2.png') }}" alt="">&nbsp; </li>
-                                                    <li><img src="{{ asset('/media/frontend_imgs/icons/mail-close.png') }}" alt="">&nbsp;
-                                                    </li>
-                                                </ul>
-                                                <ul class="social-media">
-                                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                                    </li>
-                                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                                                </ul>
-                                            </div>
+                                    <div class="agent-info-hover text-center">
+                                        <div>
+                                            <h5><a href="#">Engineer Auwal Bununu</a></h5>
+                                            <a class="slider-button mt-40" href="#">BRIEF BIO</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- service-item -->
+                            <div class="col-lg-3 md-12">
+                                <div class="single-agent">
+                                    <div class="agent-image">
+                                        <img src="{{ asset('/media/frontend_imgs/agents/image.jpg') }}" alt="">
+                                    </div>
+                                    <div class="agent-info">
+                                        <div class="agent-name">
+                                            <p>&nbsp;</p>
+                                            <h5><a href="#">Barrister Ibrahim Hussein Abdullahi</a></h5>
+                                            <a class="slider-button mt-10" href="#">BRIEF BIO</a>
+                                        </div>
+                                    </div>
+                                    <div class="agent-info-hover text-center">
+                                        <div>
+                                            <h5><a href="#">Barrister Ibrahim Hussein Abdullahi</a></h5>
+                                            <a class="slider-button mt-40" href="#">BRIEF BIO</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- service-item -->
+                            <div class="col-lg-3 md-12">
+                                <div class="single-agent">
+                                    <div class="agent-image">
+                                        <img src="{{ asset('/media/frontend_imgs/agents/image.jpg') }}" alt="">
+                                    </div>
+                                    <div class="agent-info">
+                                        <div class="agent-name">
+                                            <p>&nbsp;</p>
+                                            <h5><a href="#">Chief Michael Nkwocha</a></h5>
+                                            <p>&nbsp;</p>
+                                            <a class="slider-button mt-10" href="#">BRIEF BIO</a>
+                                        </div>
+                                    </div>
+                                    <div class="agent-info-hover text-center">
+                                        <div>
+                                            <h5><a href="#">Chief Michael Nkwocha</a></h5>
+                                            <a class="slider-button mt-40" href="#">BRIEF BIO</a>
                                         </div>
                                     </div>
                                 </div>
