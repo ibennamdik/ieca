@@ -51,7 +51,7 @@
                 <div class="col-12">
                     <div class="testimonial">
                         <div class="row">
-                            <div class="col-lg-8 col-md-9">
+                            <div class="col-lg-6 col-md-6">
                                 <div class="section-title mb-30">
                                     <h3>Commercial,</h3>
                                     <h2 class="h1">Shops, Workshops</h2>
@@ -74,9 +74,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-3">
+                            <div class="col-lg-6 col-md-6">
                                 <div class="testimonial-image">
-                                    <img src="{{ asset('/media/frontend_imgs/others/testimonial.jpg') }}" alt="">
+                                    <img src="{{ asset('/media/frontend_imgs/about/4.jpg') }}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -179,7 +179,7 @@
                 <div class="col-12">
                     <div class="testimonial">
                         <div class="row">
-                            <div class="col-lg-8 col-md-9">
+                            <div class="col-lg-6 col-md-6">
                                 <div class="section-title mb-30">
                                     <h3>Industrial :</h3>
                                     <h2 class="h1">Warehouses & Industrial Plots</h2>
@@ -204,9 +204,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-3">
+                            <div class="col-lg-6 col-md-6">
                                 <div class="testimonial-image">
-                                    <img src="{{ asset('/media/frontend_imgs/others/testimonial.jpg') }}" alt="">
+                                    <img src="{{ asset('/media/frontend_imgs/about/4.jpg') }}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -277,7 +277,7 @@
                 <div class="col-12">
                     <div class="testimonial">
                         <div class="row">
-                            <div class="col-lg-8 col-md-9">
+                            <div class="col-lg-6 col-md-6">
                                 <div class="section-title mb-30">
                                     <h3>Residential,</h3>
                                     <h2 class="h1">Shops, Workshops</h2>
@@ -301,9 +301,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-3">
+                            <div class="col-lg-6 col-md-6">
                                 <div class="testimonial-image">
-                                    <img src="{{ asset('/media/frontend_imgs/others/testimonial.jpg') }}" alt="">
+                                    <img src="{{ asset('/media/frontend_imgs/about/4.jpg') }}" alt="">
                                 </div>
                             </div>
                         </div>
