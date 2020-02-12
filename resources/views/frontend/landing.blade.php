@@ -289,17 +289,15 @@
             <!-- OUR BOARD AREA START -->
             <div class="our-agents-area pt-115 pb-55">
                 <div class="container">
-                    <div class="row p-5">
+                    <div class="row">
                         <div class="col-12">
                             <div class="section-title-2 text-center">
                                 <h2>BOARD OF DIRECTORS</h2>
-                                <p>I.E.C.A is the best theme for elit, sed do eiusmod tempor dolor sit amet, conse
-                                    ctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et lorna aliquatd
-                                    minim veniam, quis nostrud</p>
+                                <p>&nbsp;</p>
                             </div>
                         </div>
                     </div>
-                    <div class="our-agents">
+                    <div class="our-agents" style="padding:10px;">
                         <div class="row">
                            <!-- service-item -->
                            <div class="col-lg-3 md-12">

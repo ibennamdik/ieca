@@ -51,7 +51,6 @@ class LoginController extends Controller
 
     public function authenticated(Request $request, $user) {
 
-        //dd($user->hasRole('Level 4'));
         if(!$user->hasRole('Level 4')) {
 
             return redirect()->route('admin.home');

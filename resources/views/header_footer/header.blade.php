@@ -34,12 +34,13 @@
                         </div>
                         <div class="col-lg-3 col-md-6 col-12" style="text-align:center;">
                             <div class="header-search clearfix">
-                            <!-- @guest
+                            @guest
                                 @if(Route::has('register'))
-                                <a class="button mt-40" style="color:#4caf50;" href="{{ route('register') }}">CREATE YOUR ACCOUNT</a>
+                                <a href="{{ route('register') }}">Create Your Account</a>
                                 @endif
-                                &nbsp;&nbsp;| &nbsp;&nbsp;
-                                <a class="button mt-40" style="color:#4caf50;" href="{{ route('login') }}">LOGIN</a>
+                                &nbsp;&nbsp;|&nbsp;&nbsp;
+                                <a href="{{ route('login') }}">Login</a>
+                                &nbsp;&nbsp;
                             @else
                                 <a href="#"><span>Hi, {{auth()->user()->name}}</span></a>
                                 &nbsp;&nbsp;|&nbsp;&nbsp;
@@ -51,10 +52,10 @@
                                 <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                     @csrf
                                 </form>
-                            @endguest -->
-                            <a class="button mt-40" style="color:#4caf50;" href="#">CREATE YOUR ACCOUNT</a>
+                            @endguest
+                            <!-- <a class="button mt-40" style="color:#4caf50;" href="#">CREATE YOUR ACCOUNT</a>
                                 &nbsp;&nbsp;| &nbsp;&nbsp;
-                            <a class="button mt-40" style="color:#4caf50;" href="#">LOGIN</a>
+                            <a class="button mt-40" style="color:#4caf50;" href="#">LOGIN</a> -->
                             </div>
                         </div>
                     </div>

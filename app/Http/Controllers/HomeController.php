@@ -38,48 +38,13 @@ class HomeController extends Controller
 
     public function dashboard()
     {
-
-        $widths = Width::all();
-        $speed = Speed::all();
-        $rims = Rim::all();
-        $brands = Brand::all();
-        $profiles = TyreProfile::all();
-        $items = Product::where('visibility', true)->take(3)->get();
-        
-        try{
-
-            $items = Product::all()->where('visibility', true)->random(3);
-
-        } catch(\Exception $e) {
-
-        }
-
-        $posts = Post::take(4)->get();
         $settings = Setting::all();
-
-        $settings = Setting::all();
-        return view('frontend.landing', compact('widths', 'speed', 'rims', 'brands', 'profiles', 'items', 'posts', 'settings'));
+        return view('frontend.landing', compact('settings'));
     }
 
     public function welcome()
     {
-        $widths = Width::all();
-        $speed = Speed::all();
-        $rims = Rim::all();
-        $brands = Brand::all();
-        $profiles = TyreProfile::all();
-        $items = Product::where('visibility', true)->take(3)->get();
-        try{
-
-            $items = Product::all()->random(3);
-
-        } catch(\Exception $e) {
-
-        }
-
-        $posts = Post::take(4)->get();
-
-        return view('frontend.landing', compact('widths', 'speed', 'rims', 'brands', 'profiles', 'items', 'posts'));
+        return view('frontend.landing');
     }
 
     public function about()

@@ -1,78 +1,74 @@
 @extends('layouts.simple')
 
 @section('content')
-<!-- new-customers -->
- <!-- LOGIN SECTION START -->
- <div class="login-section pt-115 pb-70">
+ <!-- CONTACT AREA START -->
+ <div class="contact-area pt-115 pb-115">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-12">
-                <div class="new-customers mb-50">
-                    <form method="POST" action="{{ route('register') }}">
-                        <h5 class="mb-50">REGISTER</h5>
-                        <div class="login-account p-30 box-shadow">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <input type="text" placeholder="First Name" name="firstname">
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="text" placeholder="last Name"  name="lastname">
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="text" placeholder="Country" name="country">
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="text" placeholder="State" name="state">
-                                </div>
-                                <div class="col-md-6">
-                                    Birth Date <input type="date" placeholder="" name="birthdate">
-                                </div>
-                                
-                                <div class="col-md-6">
-                                    <input type="text" placeholder="Email" name="email">
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="text" placeholder="Phone" name="phone">
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="text" placeholder="Address" name="address">
-                                </div>
-
-                                <div class="col-md-6">
-                                    <input type="password" placeholder="Password" name="password">
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="password" placeholder="Confirm Password"  name="confirmpassword">
-                                </div>
-
-                                <div class="col-md-6">
-                                    <input type="text" placeholder="Security Question"  name="question">
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="text" placeholder="Answer"  name="answer">
-                                </div>
+            <div class="col-md-4 col-12">
+                <!-- get-in-toch -->
+                <div class="get-in-toch">
+                    <div class="section-title mb-30">
+                        <h3>Create</h3>
+                        <h2>An Account to Invest</h2>
+                    </div>
+                    <div class="contact-desc mb-50">
+                        <p><span data-placement="top" data-toggle="tooltip" data-original-title="The name you can trust" class="tooltip-content">I.E.C.A</span> is the best theme for elit, sed do
+                            eiusmod tempor dolor sit ame tse ctetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et lorna aliquatd minim veniam, quis nostrud exercitation
+                            oris nisi ut aliquip</p>
+                    </div>
+                    <ul class="contact-address">
+                        <li>
+                            <div class="contact-address-icon">
+                                <img src="images/icons/location-2.png" alt="">
                             </div>
-                            <div class="checkbox">
-                                <label class="mr-10">
-                                    <small>
-                                        <input type="checkbox" name="signup">You agree to our terms and comditions
-                                    </small>
-                                </label>
+                            <div class="contact-address-info">
+                                <span>8901 Marmora Raod, New Yourk City </span>
+                                <span>25 Glasgow, D04 89GR</span>
                             </div>
-                            
-                            <div class="row">
-                                <div class="col-md-6 col-12">
-                                    <button class="submit-btn-1 mt-20" type="submit" value="register">Register</button>
-                                </div>
-                                <div class="col-md-6 col-12">
-                                    <button class="submit-btn-1 mt-20 f-right" type="reset">Clear</button>
-                                </div>
-                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-8 col-12">
+                <div class="contact-messge contact-bg">
+                <div class="row">
+                    <div class="col-md-6 col-12">
+                        <!-- blog-details-reply -->
+                        <div class="leave-review">
+                            <h5>Fill the form below</h5>
+                            <form id="contact-form" action="{{ route('register') }}" method="POST">
+                            @csrf
+                                <input type="text" name="name" placeholder="Your name">
+                                <input type="text" name="phone_number" placeholder="Phone Number">
+                                <input type="email" name="email" placeholder="Email">
+                                <input type="text" name="state" placeholder="State">
+                                <input type="text" name="country" placeholder="Country">
+                                <input type="text" name="address" placeholder="Address">
+                                <br>
+                            <!-- <p class="form-messege mb-0"></p> -->
                         </div>
-                    </form>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <!-- blog-details-reply -->
+                        <div class="leave-review">
+                            <h5>&nbsp;</h5>
+                                <input type="password" name="password" placeholder="Password">
+                                <input type="password" name="password_confirmation" placeholder="Retype Password">
+                                <input type="text" name="question" placeholder="Security Question">
+                                <input type="email" name="answer" placeholder="Answer">
+                                Date of birth : <input type="date" name="birth_date" placeholder="Date of Birth">
+                                <br>
+                                <button type="submit" class="submit-btn-1">SUBMIT</button>
+                            </form>
+                            <!-- <p class="form-messege mb-0"></p> -->
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+<!-- CONTACT AREA END -->
 @endsection
