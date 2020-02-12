@@ -43,7 +43,7 @@
                             @csrf
                                 <input type="email" name="email" placeholder="Email">
                                 <input type="password" name="password" placeholder="Your password">
-                                <label class="form-check-label" for="remember"> {{ __('Remember Me') }}</label>
+                                <!-- <label class="form-check-label" for="remember"> {{ __('Remember Me') }}</label> -->
                                 <br>
                                 <button type="submit" class="submit-btn-1">SUBMIT</button>
                             </form>
