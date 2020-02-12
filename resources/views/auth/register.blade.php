@@ -13,10 +13,8 @@
                         <h2>An Account to Invest</h2>
                     </div>
                     <div class="contact-desc mb-50">
-                        <p><span data-placement="top" data-toggle="tooltip" data-original-title="The name you can trust" class="tooltip-content">I.E.C.A</span> is the best theme for elit, sed do
-                            eiusmod tempor dolor sit ame tse ctetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et lorna aliquatd minim veniam, quis nostrud exercitation
-                            oris nisi ut aliquip</p>
+                        <p><span data-placement="top" data-toggle="tooltip" data-original-title="The name you can trust" class="tooltip-content"></span>
+                            </p>
                     </div>
                     <ul class="contact-address">
                         <li>
@@ -24,8 +22,8 @@
                                 <img src="images/icons/location-2.png" alt="">
                             </div>
                             <div class="contact-address-info">
-                                <span>8901 Marmora Raod, New Yourk City </span>
-                                <span>25 Glasgow, D04 89GR</span>
+                                <span> </span>
+                                <span></span>
                             </div>
                         </li>
                     </ul>
