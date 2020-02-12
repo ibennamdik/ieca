@@ -117,9 +117,9 @@
                                     <h2>Step 1 : PURCHASE A FORM </h2>
                                     <h3 class="h4">Step 2 : Make investments in your desired sector </h3>
                                     <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-                                        <a class="slider-button mt-40" href="#">CREATE YOUR ACCOUNT</a>
-                                        <a class="slider-button mt-40" href="#">LOGIN</a>
-                                        <a class="slider-button mt-40" href="#">INVEST</a>
+                                        <a class="slider-button mt-40" href="{{ route('register') }}">CREATE YOUR ACCOUNT</a>
+                                        <a class="slider-button mt-40" href="{{ route('login') }}">LOGIN</a>
+                                        <a class="slider-button mt-40" href="{{ route('investment') }}">INVEST</a>
                                     </div>
                                 </div>
                                 
