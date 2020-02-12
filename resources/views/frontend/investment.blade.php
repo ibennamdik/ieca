@@ -11,17 +11,26 @@
                         <h2>INVEST NOW</h2>
                     </div>
                     <div class="about-I.E.C.A-info">
-                        <p><span data-placement="top" data-toggle="tooltip" data-original-title="The name you can trust" class="tooltip-content">I.E.C.A</span> is the best theme for elit, sed do
-                            eiusmod tempor dolor sit amet, conse ctetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et lorna aliquatd minim veniam, quis nostrud exercitation oris
-                            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolo.</p>
+                        <p>
+                        The subscription to shops, warehouses,workshops,open market spaces or plots of land in International  Economic City, 
+                        Abuja is open to the general public but specifically for progressive  businessmen and women  who desire a well structured 
+                        business  and living environment necessary for creation of massive wealth and luxurious life. 
+                        </p>
                         <div class="author-quote">
-                            <p>Lorem is a dummy text do eiusmod tempor dolor sit amet, onsectetur adip iscing
-                                elit, sed do eiusmod tempor incididunt ut labore et lorna aliqua Ut enim
-                                onsectetur </p>
-                            <p>Lorem is a dummy text do eiusmod tempor dolor sit amet, onsectetur adip iscing
-                                elit, sed do eiusmod tempor incididunt ut labore et lorna aliqua Ut enim
-                                onsectetur </p>
+                        <span class="tooltip-content">HOW TO INVEST</span>
+                        <br>Purchase of subscription form. The fees for subscription are as follows:
+                            <p>
+                                <ul>
+                                    <li>a. Lock-up shops = N100,000</li>
+                                    <li>b. Automobile mechanic workshop/garage = N100,000</li>
+                                    <li>c. Open market space for foodstuff = N50,000</li>
+                                    <li>d. Residential plot for small & medium income = N100,000</li>
+                                    <li>e. Luxurious buildings, upscale highrise Apartments and residences = N250,000</li>
+                                    <li>f. Industrial plots = N250,000</li>
+                                    <li>g. Offices, banks, hotels, departmental stores, schools,etc = N250,000.</li>
+                                <ul>
+                                
+                            </p>
                         </div>
                     </div>
                 </div>
