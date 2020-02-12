@@ -289,7 +289,7 @@
             <!-- OUR BOARD AREA START -->
             <div class="our-agents-area pt-115 pb-55">
                 <div class="container">
-                    <div class="row">
+                    <div class="row p-5">
                         <div class="col-12">
                             <div class="section-title-2 text-center">
                                 <h2>BOARD OF DIRECTORS</h2>
