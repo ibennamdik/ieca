@@ -34,7 +34,7 @@
                         </div>
                         <div class="col-lg-3 col-md-6 col-12" style="text-align:center;">
                             <div class="header-search clearfix">
-                            @guest
+                            <!-- @guest
                                 @if(Route::has('register'))
                                 <a href="{{ route('register') }}">Create Your Account</a>
                                 @endif
@@ -52,7 +52,7 @@
                                 <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                     @csrf
                                 </form>
-                            @endguest
+                            @endguest -->
                             <!-- <a class="button mt-40" style="color:#4caf50;" href="#">CREATE YOUR ACCOUNT</a>
                                 &nbsp;&nbsp;| &nbsp;&nbsp;
                             <a class="button mt-40" style="color:#4caf50;" href="#">LOGIN</a> -->
@@ -76,15 +76,28 @@
                                         <li><a @guest href="{{ route('welcome') }}" @else href="{{ route('home') }}"
                                                @endguest class="@if(Route::is('home')) active @endif">Home</a>
                                         </li>
-                                        <li><a href="{{ route('about') }}" class="@if(Route::is('about')) active @endif">About Us</a>
-                                        </li>
+                                        <li><a href="{{ route('about') }}" class="@if(Route::is('about')) active @endif">About Us</a></li>
                                         <!-- <li><a href="{{ route('services') }}">Service</a>
                                         </li> -->
-                                        <li><a href="{{ route('investment') }}">Investment</a>
-                                        </li>
-                                        <!-- <li><a href="login.html">Create Account</a>
-                                        </li> -->
-                                        <li><a href="#footer" class="@if(Route::is('contact')) active @endif">Contact</a></li>
+                                        <li><a href="{{ route('investment') }}">Make Investment</a></li>
+                                        
+                                        <li><a href="#footer" class="@if(Route::is('contact')) active @endif">Contact Us</a></li>
+                                        @guest
+                                            @if(Route::has('register'))
+                                            <li><a href="{{ route('register') }}">Create your Account</a></li>
+                                            @endif
+                                            <li><a href="{{ route('login') }}">Login</a></li>
+                                            @else
+                                            <li><a href="{{ route('overview') }}">My Account</a><li>
+
+                                            <li>
+                                                <a class="icon-1" href="{{ route('logout') }}" onclick="event.preventDefault();document.getElementById('logout-form').submit();">Logout</a>
+                                                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">@csrf</form>
+                                            </li>
+
+                                            &nbsp;&nbsp;&nbsp;&nbsp;
+                                            <li><a href="#"><span>Hi, {{auth()->user()->name}}</span></a></li>
+                                        @endguest
                                     </ul>
                                 </nav>
                             </div>
@@ -110,15 +123,25 @@
                                     </li>
                                     <!-- <li><a href="{{ route('services') }}">Service</a>
                                     </li> -->
-                                    <li><a href="{{ route('investment') }}">Investment</a>
+                                    <li><a href="{{ route('investment') }}">Make Investment</a>
                                     </li>
+                                    <li><a href="#footer" class="@if(Route::is('contact')) active @endif">Contact Us</a></li>
+                                    @guest
+                                        @if(Route::has('register'))
+                                        <li><a href="{{ route('register') }}">Create Your Account</a></li>
+                                        @endif
+                                        <li><a href="{{ route('login') }}">Login</a></li>
+                                        @else
+                                        <li><a href="{{ route('overview') }}">My Account</a><li>
 
-                                    <!-- <li><a href="{{route('lesson')}}" class="@if(Route::is('lesson')) active @endif">News</a>
-                                    </li> -->
-                                    
-                                    <!-- <li><a href="login.html">Create Account</a>
-                                    </li> -->
-                                    <li><a href="#footer" class="@if(Route::is('contact')) active @endif">Contact</a></li>
+                                        <li>
+                                            <a class="icon-1" href="{{ route('logout') }}" onclick="event.preventDefault();document.getElementById('logout-form').submit();">Logout</a>
+                                            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">@csrf</form>
+                                        </li>
+
+                                        &nbsp;&nbsp;&nbsp;&nbsp;
+                                        <li><a href="#"><span>Hi, {{auth()->user()->name}}</span></a></li>
+                                    @endguest
                                 </ul>
                             </nav>
                         </div>
