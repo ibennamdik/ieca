@@ -18,7 +18,7 @@
                                     </div>
                                     <div class="header-info">
                                         <h6>{{ $settings->phone1 }}</h6>
-                                        <p>We are open 9 am - 10pm</p>
+                                        <p>We are open 8am - 4pm</p>
                                     </div>
                                 </div>
                                 <div class="company-info-item">
