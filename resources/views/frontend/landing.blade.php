@@ -292,7 +292,7 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="section-title-2 text-center">
-                                <h2>BOARD OF GOVENORORS</h2>
+                                <h2>BOARD OF GOVENORS</h2>
                                 <p>&nbsp;</p>
                             </div>
                         </div>
