@@ -11,32 +11,33 @@
                         <h2>INVEST NOW</h2>
                     </div>
                     <div class="about-I.E.C.A-info">
-                        <p>
+                        <!-- <p>
                         The subscription to shops, warehouses,workshops,open market spaces or plots of land in International  Economic City, 
                         Abuja is open to the general public but specifically for progressive  businessmen and women  who desire a well structured 
                         business  and living environment necessary for creation of massive wealth and luxurious life. 
-                        </p>
+                        </p> -->
                         <div class="author-quote">
                         <span class="tooltip-content">HOW TO INVEST</span>
+                        <br>
                         <br>Purchase of subscription form. The fees for subscription are as follows:
-                            <p>
-                                <ul>
-                                    <li>a. Lock-up shops = N100,000</li>
-                                    <li>b. Automobile mechanic workshop/garage = N100,000</li>
-                                    <li>c. Open market space for foodstuff = N50,000</li>
-                                    <li>d. Residential plot for small & medium income = N100,000</li>
-                                    <li>e. Luxurious buildings, upscale highrise Apartments and residences = N250,000</li>
-                                    <li>f. Industrial plots = N250,000</li>
-                                    <li>g. Offices, banks, hotels, departmental stores, schools,etc = N250,000.</li>
-                                <ul>
-                                
-                            </p>
+                           
+                            <ul>
+                                <li>a. Lock-up shops = N100,000</li>
+                                <li>b. Automobile mechanic workshop/garage = N100,000</li>
+                                <li>c. Open market space for foodstuff = N50,000</li>
+                                <li>d. Residential plot for small & medium income = N100,000</li>
+                                <li>e. Luxurious buildings, upscale highrise Apartments and residences = N250,000</li>
+                                <li>f. Industrial plots = N250,000</li>
+                                <li>g. Offices, banks, hotels, departmental stores, schools,etc = N250,000.</li>
+                            <ul>
+                            <br>    
+                       
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-12">
                     <div class="about-image">
-                        <img src="{{ asset('/media/frontend_imgs/about/4.jpg') }}" alt="About Image">
+                        <img src="{{ asset('/media/frontend_imgs/about/commercialbank.jpeg') }}" alt="About Image">
                     </div>
                 </div>
             </div>
@@ -76,7 +77,8 @@
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <div class="testimonial-image">
-                                    <img src="{{ asset('/media/frontend_imgs/about/4.jpg') }}" alt="">
+                                    <br>
+                                    <img src="{{ asset('/media/frontend_imgs/about/shops.jpeg') }}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -206,7 +208,8 @@
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <div class="testimonial-image">
-                                    <img src="{{ asset('/media/frontend_imgs/about/4.jpg') }}" alt="">
+                                    <br>
+                                    <img src="{{ asset('/media/frontend_imgs/about/fillingstation.jpeg') }}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -303,7 +306,7 @@
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <div class="testimonial-image">
-                                    <img src="{{ asset('/media/frontend_imgs/about/4.jpg') }}" alt="">
+                                    <img src="{{ asset('/media/frontend_imgs/about/residential.jpeg') }}" alt="">
                                 </div>
                             </div>
                         </div>

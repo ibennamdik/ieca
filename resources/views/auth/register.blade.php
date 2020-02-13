@@ -55,7 +55,7 @@
                                 <input type="password" name="password" placeholder="Password">
                                 <input type="password" name="password_confirmation" placeholder="Retype Password">
                                 <input type="text" name="question" placeholder="Security Question">
-                                <input type="email" name="answer" placeholder="Answer">
+                                <input type="text" name="answer" placeholder="Answer">
                                 Date of birth : <input type="date" name="birth_date" placeholder="Date of Birth">
                                 <br>
                                 <button type="submit" class="submit-btn-1">SUBMIT</button>
