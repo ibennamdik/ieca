@@ -54,7 +54,7 @@
                         <div class="row">
                             <div class="col-lg-6 col-md-6">
                                 <div class="section-title mb-30">
-                                    <h3>Commercial,</h3>
+                                    <h3>Commercial : </h3>
                                     <h2 class="h1">Shops, Workshops</h2>
                                 </div>
                                 <div class="testimonial-carousel dots-right-btm">
@@ -183,7 +183,7 @@
                         <div class="row">
                             <div class="col-lg-6 col-md-6">
                                 <div class="section-title mb-30">
-                                    <h3>Industrial :</h3>
+                                    <h3>Industrial : </h3>
                                     <h2 class="h1">Warehouses & Industrial Plots</h2>
                                 </div>
                                 <div class="testimonial-carousel dots-right-btm">
@@ -282,7 +282,7 @@
                         <div class="row">
                             <div class="col-lg-6 col-md-6">
                                 <div class="section-title mb-30">
-                                    <h3>Residential,</h3>
+                                    <h3>Residential : </h3>
                                     <h2 class="h1">Shops, Workshops</h2>
                                 </div>
                                 <div class="testimonial-carousel dots-right-btm">
