@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
-        <title>IECA</title>
+        <title>Welcome to IECA | INTERNATIONAL ECONOMIC CITY ABUJA</title>
 
         <meta name="description" content="IECA">
         <meta name="author" content="pixelcave">

@@ -1,5 +1,5 @@
- <!-- HEADER AREA START -->
- <header class="header-area header-wrapper">
+        <!-- HEADER AREA START -->
+        <header class="header-area header-wrapper">
             <div class="header-top-bar bg-white">
                 <div class="container">
                     <div class="row">
