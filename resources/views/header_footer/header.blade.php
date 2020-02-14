@@ -34,6 +34,11 @@
                         </div>
                         <div class="col-lg-3 col-md-6 col-12" style="text-align:center;">
                             <div class="header-search clearfix">
+
+                            <a href="#"><img height="32px" src="{{ asset('/media/frontend_imgs/icons/iconfacebook.png') }}" alt=""></a>
+                            <a href="#"><img height="32px" src="{{ asset('/media/frontend_imgs/icons/icontwitter.png') }}" alt=""></a>
+                            <a href="#"><img height="32px" src="{{ asset('/media/frontend_imgs/icons/iconyoutube.png') }}" alt=""></a>
+                            <a href="#"><img height="32px" src="{{ asset('/media/frontend_imgs/icons/iconinstagram.png') }}" alt=""></a>
                             <!-- @guest
                                 @if(Route::has('register'))
                                 <a href="{{ route('register') }}">Create Your Account</a>
