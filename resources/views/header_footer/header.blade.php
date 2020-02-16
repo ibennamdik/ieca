@@ -37,7 +37,7 @@
 
                             <a href="https://web.facebook.com/International-Economic-City-Abuja-112069343707345/"><img height="32px" src="{{ asset('/media/frontend_imgs/icons/iconfacebook.png') }}" alt=""></a>
                             <a href="https://twitter.com/IecaNigeria"><img height="32px" src="{{ asset('/media/frontend_imgs/icons/icontwitter.png') }}" alt=""></a>
-                            <a href="#"><img height="32px" src="{{ asset('/media/frontend_imgs/icons/iconyoutube.png') }}" alt=""></a>
+                            <a href="https://www.youtube.com/channel/UCXbbS1V25DgoPdT5wW_Ld4g"><img height="32px" src="{{ asset('/media/frontend_imgs/icons/iconyoutube.png') }}" alt=""></a>
                             <a href="#"><img height="32px" src="{{ asset('/media/frontend_imgs/icons/iconinstagram.png') }}" alt=""></a>
                             <!-- @guest
                                 @if(Route::has('register'))
