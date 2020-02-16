@@ -303,7 +303,7 @@
                            <div class="col-lg-3 md-12">
                                 <div class="single-agent">
                                     <div class="agent-image">
-                                        <img src="{{ asset('/media/frontend_imgs/agents/image.jpg') }}" alt="">
+                                        <img src="{{ asset('/media/frontend_imgs/agents/image1.jpeg') }}" alt="">
                                     </div>
                                     <div class="agent-info">
                                         <div class="agent-name">
@@ -325,7 +325,7 @@
                             <div class="col-lg-3 md-12">
                                 <div class="single-agent">
                                     <div class="agent-image">
-                                        <img src="{{ asset('/media/frontend_imgs/agents/image.jpg') }}" alt="">
+                                        <img src="{{ asset('/media/frontend_imgs/agents/image3.jpeg') }}" alt="">
                                     </div>
                                     <div class="agent-info">
                                         <div class="agent-name">
@@ -347,7 +347,7 @@
                             <div class="col-lg-3 md-12">
                                 <div class="single-agent">
                                     <div class="agent-image">
-                                        <img src="{{ asset('/media/frontend_imgs/agents/image.jpg') }}" alt="">
+                                        <img src="{{ asset('/media/frontend_imgs/agents/image2.jpeg') }}" alt="">
                                     </div>
                                     <div class="agent-info">
                                         <div class="agent-name">
@@ -373,14 +373,14 @@
                                     <div class="agent-info">
                                         <div class="agent-name">
                                             <p>&nbsp;</p>
-                                            <h5><a href="#">Chief Michael Nkwocha</a></h5>
+                                            <h5><a href="#">&nbsp;</a></h5>
                                             <p>&nbsp;</p>
                                             <a class="slider-button mt-10" href="#">BRIEF BIO</a>
                                         </div>
                                     </div>
                                     <div class="agent-info-hover text-center">
                                         <div>
-                                            <h5><a href="#">Chief Michael Nkwocha</a></h5>
+                                            <h5><a href="#">&nbsp;</a></h5>
                                             <a class="slider-button mt-40" href="#">BRIEF BIO</a>
                                         </div>
                                     </div>
@@ -439,7 +439,14 @@
                         <div class="col-12">
                             <div class="brand-carousel">
                                 <!-- brand-item -->
-                                <div class="col">
+                                 <div class="col">
+                                    <div class="brand-item">
+                                        <img src="{{ asset('/media/frontend_imgs/brand/2.png') }}" alt="">
+                                    </div>
+                                </div>
+                                <!-- brand-item -->
+                                 <!-- brand-item -->
+                                 <div class="col">
                                     <div class="brand-item">
                                         <img src="{{ asset('/media/frontend_imgs/brand/1.png') }}" alt="">
                                     </div>
@@ -450,26 +457,8 @@
                                         <img src="{{ asset('/media/frontend_imgs/brand/2.png') }}" alt="">
                                     </div>
                                 </div>
-                                <!-- brand-item -->
-                                <div class="col">
-                                    <div class="brand-item">
-                                        <img src="{{ asset('/media/frontend_imgs/brand/3.png') }}" alt="">
-                                    </div>
-                                </div>
-                                <!-- brand-item -->
-                                <div class="col">
-                                    <div class="brand-item">
-                                        <img src="{{ asset('/media/frontend_imgs/brand/4.png') }} alt="">
-                                    </div>
-                                </div>
-                                <!-- brand-item -->
-                                <div class="col">
-                                    <div class="brand-item">
-                                        <img src="{{ asset('/media/frontend_imgs/brand/5.png') }}" alt="">
-                                    </div>
-                                </div>
-                                <!-- brand-item -->
-                                <div class="col">
+                                 <!-- brand-item -->
+                                 <div class="col">
                                     <div class="brand-item">
                                         <img src="{{ asset('/media/frontend_imgs/brand/1.png') }}" alt="">
                                     </div>
@@ -477,9 +466,10 @@
                                 <!-- brand-item -->
                                 <div class="col">
                                     <div class="brand-item">
-                                        <img src="{{ asset('/media/frontend_imgs/brand/4.png') }}" alt="">
+                                        <img src="{{ asset('/media/frontend_imgs/brand/2.png') }}" alt="">
                                     </div>
                                 </div>
+                                 <!-- brand-item -->
                             </div>
                         </div>
                     </div>
