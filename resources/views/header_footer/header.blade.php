@@ -35,8 +35,8 @@
                         <div class="col-lg-3 col-md-6 col-12" style="text-align:center;">
                             <div class="header-search clearfix">
 
-                            <a href="#"><img height="32px" src="{{ asset('/media/frontend_imgs/icons/iconfacebook.png') }}" alt=""></a>
-                            <a href="#"><img height="32px" src="{{ asset('/media/frontend_imgs/icons/icontwitter.png') }}" alt=""></a>
+                            <a href="https://web.facebook.com/International-Economic-City-Abuja-112069343707345/"><img height="32px" src="{{ asset('/media/frontend_imgs/icons/iconfacebook.png') }}" alt=""></a>
+                            <a href="https://twitter.com/IecaNigeria"><img height="32px" src="{{ asset('/media/frontend_imgs/icons/icontwitter.png') }}" alt=""></a>
                             <a href="#"><img height="32px" src="{{ asset('/media/frontend_imgs/icons/iconyoutube.png') }}" alt=""></a>
                             <a href="#"><img height="32px" src="{{ asset('/media/frontend_imgs/icons/iconinstagram.png') }}" alt=""></a>
                             <!-- @guest

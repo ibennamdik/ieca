@@ -91,9 +91,11 @@
                                     <a class="slider-button mt-40" href="{{ route('about') }}">Read More</a></p>
                             </div>
                         </div>
-                        <div class="col-md-6 col-12">
+                        <div class="col-md-6 col-12" style="padding-top:20px;">
                             <div class="about-image">
-                                <a href="about.html"><img src="{{ asset('/media/frontend_imgs/about/1.jpeg') }}" alt=""></a>
+                                <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/-yMcjEqG4o4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
                             </div>
                         </div>
                     </div>
