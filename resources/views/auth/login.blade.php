@@ -39,7 +39,7 @@
                         <!-- blog-details-reply -->
                         <div class="leave-review">
                             <h5>Fill in your details</h5>
-                            <form id="contact-form" action="{{ route('login') }}" method="post">
+                            <form  action="{{ route('login') }}" method="post">
                             @csrf
                                 <input type="email" name="email" placeholder="Email">
                                 <input type="password" name="password" placeholder="Your password">
