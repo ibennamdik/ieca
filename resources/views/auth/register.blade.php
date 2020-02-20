@@ -36,7 +36,7 @@
                         <!-- blog-details-reply -->
                         <div class="leave-review">
                             <h5>Fill the form below</h5>
-                            <form id="contact-form" action="{{ route('register') }}" method="POST">
+                            <form action="{{ route('register') }}" method="POST">
                             @csrf
                                 <input type="text" name="name" placeholder="Your name">
                                 <input type="text" name="phone_number" placeholder="Phone Number">
