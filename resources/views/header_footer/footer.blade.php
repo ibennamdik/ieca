@@ -44,7 +44,7 @@
                                 </div>
                                 <div class="address-info">
                                     <span>Email : {{ $settings->email }}</span>
-                                    <span>Web :<a href="#" target="_blank"> {{ $settings->web_url }}</a></span>
+                                    <span><a href="https://accounts.zoho.com/signin?servicename=VirtualOffice&signupurl=https://www.zoho.com/mail/zohomail-pricing.html&serviceurl=https://mail.zoho.com" target="_blank"> Access WebMail</a></span>
                                 </div>
                             </li>
                         </ul>
