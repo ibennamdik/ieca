@@ -1,3 +1,133 @@
+<!-- ABOUT I.E.C.A AREA START -->
+<div class="about-I.E.C.A-area ptb-115">
+    <div class="container">
+        
+        <div class="row">
+            <div class=" col-12 order-md-2">
+                
+                <div class="about-I.E.C.A-info">
+                    <div class="my-5 text-center container">
+                        <div class="row mb-2">
+                            <div class="col text-center">
+                                <h1>IECA Gallery</h1>
+                                <!-- <p class="lead">Does what it says on the tin.</p> -->
+                            </div>
+                        </div>
+                        <div class="row d-flex align-items-center">
+                            <div class="col-1 d-flex align-items-center justify-content-center">
+                                <a href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                    <div class="carousel-nav-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <path d="m88.6,121.3c0.8,0.8 1.8,1.2 2.9,1.2s2.1-0.4 2.9-1.2c1.6-1.6 1.6-4.2 0-5.8l-51-51 51-51c1.6-1.6 1.6-4.2 0-5.8s-4.2-1.6-5.8,0l-54,53.9c-1.6,1.6-1.6,4.2 0,5.8l54,53.9z"/>
+                                    </svg>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-10">
+                                <!--Start carousel-->
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <div class="row">
+                                                <div class="col-12 col-md d-flex align-items-center justify-content-center">
+                                                    <img src="{{ asset('/media/frontend_imgs/gallery/picture1.png') }}">
+                                                </div>
+                                                <div class="col-12 col-md d-flex align-items-center justify-content-center">
+                                                    <img src="{{ asset('/media/frontend_imgs/gallery/picture2.gif') }}">
+                                                </div>
+                                                <div class="col-12 col-md d-flex align-items-center justify-content-center" class="col-12 col-md d-flex align-items-center justify-content-center">
+                                                    <img src="{{ asset('/media/frontend_imgs/gallery/picture3.png') }}">
+                                                    <h3 class="text-white">Text in the panel.</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="carousel-item">
+                                            <div class="row">
+                                                <div class="col-12 col-md d-flex align-items-center justify-content-center">
+                                                    <img src="{{ asset('/media/frontend_imgs/gallery/picture4.png') }}">
+                                                </div>
+                                                
+                                                <div class="col-12 col-md d-flex align-items-center justify-content-center">
+                                                    <img src="{{ asset('/media/frontend_imgs/gallery/picture5.png') }}">
+                                                </div>
+                                                
+                                                <div class="col-12 col-md d-flex align-items-center justify-content-center">
+                                                    <img src="{{ asset('/media/frontend_imgs/gallery/picture6.png') }}">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <div class="row">
+                                                <div class="col-12 col-md d-flex align-items-center justify-content-center">
+                                                    <img src="{{ asset('/media/frontend_imgs/gallery/picture7.png') }}">
+                                                </div>
+                                                
+                                                <div class="col-12 col-md d-flex align-items-center justify-content-center">
+                                                    <img src="{{ asset('/media/frontend_imgs/gallery/picture8.png') }}">
+                                                </div>
+                                                
+                                                <div class="col-12 col-md d-flex align-items-center justify-content-center">
+                                                    <img src="{{ asset('/media/frontend_imgs/gallery/picture9.jpg') }}">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <div class="row">
+                                                <div class="col-12 col-md d-flex align-items-center justify-content-center">
+                                                    <img src="{{ asset('/media/frontend_imgs/gallery/picture10.jpg') }}">
+                                                </div>
+                                                
+                                                <div class="col-12 col-md d-flex align-items-center justify-content-center">
+                                                    <img src="{{ asset('/media/frontend_imgs/gallery/picture11.jpg') }}">
+                                                </div>
+                                                
+                                                <div class="col-12 col-md d-flex align-items-center justify-content-center">
+                                                    <img src="{{ asset('/media/frontend_imgs/gallery/picture12.jpg') }}">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <div class="row">
+                                                <div class="col-12 col-md d-flex align-items-center justify-content-center">
+                                                    <img src="{{ asset('/media/frontend_imgs/gallery/picture13.jpg') }}">
+                                                </div>
+                                                
+                                                <div class="col-12 col-md d-flex align-items-center justify-content-center">
+                                                    <img src="{{ asset('/media/frontend_imgs/gallery/picture14.png') }}">
+                                                </div>
+                                                
+                                                <div class="col-12 col-md d-flex align-items-center justify-content-center">
+                                                    <img src="{{ asset('/media/frontend_imgs/gallery/picture1.png') }}">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--End carousel-->
+                            </div>
+                            <div class="col-1 d-flex align-items-center justify-content-center"><a  href="#carouselExampleIndicators" data-slide="next">
+                                <div class="carousel-nav-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <path d="m40.4,121.3c-0.8,0.8-1.8,1.2-2.9,1.2s-2.1-0.4-2.9-1.2c-1.6-1.6-1.6-4.2 0-5.8l51-51-51-51c-1.6-1.6-1.6-4.2 0-5.8 1.6-1.6 4.2-1.6 5.8,0l53.9,53.9c1.6,1.6 1.6,4.2 0,5.8l-53.9,53.9z"/>
+                                    </svg>
+                                </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+<!-- ABOUT I.E.C.A AREA END -->
+
 <!-- Start footer area -->
 <footer id="footer" class="footer-area bg-2 bg-opacity-black-90">
     <div class="footer-top pt-110 pb-80">

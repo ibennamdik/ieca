@@ -311,7 +311,7 @@
                                         <div class="agent-name">
                                             <p>&nbsp;</p>
                                             <h5><a href="#">Chief Michael Nkwocha</a></h5>
-                                            <p>&nbsp;</p>
+                                            <p>Chairman</p>
                                             <a class="slider-button mt-10" href="#">BRIEF BIO</a>
                                         </div>
                                     </div>
@@ -370,19 +370,111 @@
                             <div class="col-lg-3 md-12">
                                 <div class="single-agent">
                                     <div class="agent-image">
-                                        <img src="{{ asset('/media/frontend_imgs/agents/image.jpg') }}" alt="">
+                                        <img src="{{ asset('/media/frontend_imgs/agents/nneka.jpg') }}" alt="">
                                     </div>
                                     <div class="agent-info">
                                         <div class="agent-name">
                                             <p>&nbsp;</p>
-                                            <h5><a href="#">&nbsp;</a></h5>
-                                            <p>&nbsp;</p>
+                                            <h5><a href="#">Mrs Nneka Brittain</a></h5>
+                                            <p>Director</p>
                                             <a class="slider-button mt-10" href="#">BRIEF BIO</a>
                                         </div>
                                     </div>
                                     <div class="agent-info-hover text-center">
                                         <div>
-                                            <h5><a href="#">&nbsp;</a></h5>
+                                            <h5><a href="#">Mrs Nneka Brittain</a></h5>
+                                            <a class="slider-button mt-40" href="#">BRIEF BIO</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- service-item -->
+                            <div class="col-lg-3 md-12">
+                                <div class="single-agent">
+                                    <div class="agent-image">
+                                        <img src="{{ asset('/media/frontend_imgs/agents/okey.png') }}" alt="">
+                                    </div>
+                                    <div class="agent-info">
+                                        <div class="agent-name">
+                                            <p>&nbsp;</p>
+                                            <h5><a href="#">Dr. Okey Ani</a></h5>
+                                            <p>Advisor</p>
+                                            <a class="slider-button mt-10" href="#">BRIEF BIO</a>
+                                        </div>
+                                    </div>
+                                    <div class="agent-info-hover text-center">
+                                        <div>
+                                            <h5><a href="#">Dr. Okey Ani</a></h5>
+                                            <a class="slider-button mt-40" href="#">BRIEF BIO</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- service-item -->
+                            <div class="col-lg-3 md-12">
+                                <div class="single-agent">
+                                    <div class="agent-image">
+                                        <img src="{{ asset('/media/frontend_imgs/agents/scot.jpg') }}" alt="">
+                                    </div>
+                                    <div class="agent-info">
+                                        <div class="agent-name">
+                                            <p>&nbsp;</p>
+                                            <h5><a href="#">Scott Oradi Ugbah</a></h5>
+                                            <p>Advisor</p>
+                                            <a class="slider-button mt-10" href="#">BRIEF BIO</a>
+                                        </div>
+                                    </div>
+                                    <div class="agent-info-hover text-center">
+                                        <div>
+                                            <h5><a href="#">Scott Oradi Ugbah</a></h5>
+                                            <a class="slider-button mt-40" href="#">BRIEF BIO</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- service-item -->
+                            <div class="col-lg-3 md-12">
+                                <div class="single-agent">
+                                    <div class="agent-image">
+                                        <img src="{{ asset('/media/frontend_imgs/agents/stanley.jpg') }}" alt="">
+                                    </div>
+                                    <div class="agent-info">
+                                        <div class="agent-name">
+                                            <p>&nbsp;</p>
+                                            <h5><a href="#">Mr. Stanley Ijeoma</a></h5>
+                                            <p>Advisor</p>
+                                            <a class="slider-button mt-10" href="#">BRIEF BIO</a>
+                                        </div>
+                                    </div>
+                                    <div class="agent-info-hover text-center">
+                                        <div>
+                                            <h5><a href="#">Mr. Stanley Ijeoma</a></h5>
+                                            <a class="slider-button mt-40" href="#">BRIEF BIO</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- service-item -->
+                            <div class="col-lg-3 md-12">
+                                <div class="single-agent">
+                                    <div class="agent-image">
+                                        <img src="{{ asset('/media/frontend_imgs/agents/ezeji.jpg') }}" alt="">
+                                    </div>
+                                    <div class="agent-info">
+                                        <div class="agent-name">
+                                            <p>&nbsp;</p>
+                                            <h5><a href="#">Mr. Ezeji Benneth</a></h5>
+                                            <p>Advisor</p>
+                                            <a class="slider-button mt-10" href="#">BRIEF BIO</a>
+                                        </div>
+                                    </div>
+                                    <div class="agent-info-hover text-center">
+                                        <div>
+                                            <h5><a href="#">Mr. Ezeji Benneth</a></h5>
                                             <a class="slider-button mt-40" href="#">BRIEF BIO</a>
                                         </div>
                                     </div>
