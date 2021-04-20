@@ -532,13 +532,7 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="brand-carousel">
-                                <!-- brand-item -->
-                                 <div class="col">
-                                    <div class="brand-item">
-                                        <img src="{{ asset('/media/frontend_imgs/brand/2.png') }}" alt="">
-                                    </div>
-                                </div>
-                                <!-- brand-item -->
+                               
                                  <!-- brand-item -->
                                  <div class="col">
                                     <div class="brand-item">
@@ -554,16 +548,43 @@
                                  <!-- brand-item -->
                                  <div class="col">
                                     <div class="brand-item">
-                                        <img src="{{ asset('/media/frontend_imgs/brand/1.png') }}" alt="">
+                                        <img src="{{ asset('/media/frontend_imgs/brand/3.png') }}" alt="">
                                     </div>
                                 </div>
                                 <!-- brand-item -->
                                 <div class="col">
                                     <div class="brand-item">
-                                        <img src="{{ asset('/media/frontend_imgs/brand/2.png') }}" alt="">
+                                        <img src="{{ asset('/media/frontend_imgs/brand/4.png') }}" alt="">
+                                    </div>
+                                </div>
+                                
+                                <!-- brand-item -->
+                                <div class="col">
+                                    <div class="brand-item">
+                                        <img src="{{ asset('/media/frontend_imgs/brand/5.png') }}" alt="">
+                                    </div>
+                                </div>
+
+                                <!-- brand-item -->
+                                <div class="col">
+                                    <div class="brand-item">
+                                        <img src="{{ asset('/media/frontend_imgs/brand/6.png') }}" alt="">
                                     </div>
                                 </div>
                                  <!-- brand-item -->
+                                <div class="col">
+                                    <div class="brand-item">
+                                        <img src="{{ asset('/media/frontend_imgs/brand/7.png') }}" alt="">
+                                    </div>
+                                </div>
+                                 <!-- brand-item -->
+                                  <!-- brand-item -->
+                                  <div class="col">
+                                    <div class="brand-item">
+                                        <img src="{{ asset('/media/frontend_imgs/brand/8.png') }}" alt="">
+                                    </div>
+                                </div>
+                                <!-- brand-item -->
                             </div>
                         </div>
                     </div>

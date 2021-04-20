@@ -219,10 +219,10 @@ Design and Developed by: http://devitems.com/
         11. Brand Carousel
     *************************/
     $('.brand-carousel').slick({
-        arrows: false,
+        arrows: true,
         dots: false,
         infinite: false,
-        speed: 300,
+        speed: 100,
         slidesToShow: 5,
         slidesToScroll: 4,
         responsive: [{
@@ -249,7 +249,7 @@ Design and Developed by: http://devitems.com/
             {
                 breakpoint: 480,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                     slidesToScroll: 1
                 }
             } // Small Mobile
