@@ -462,7 +462,7 @@
                             <div class="col-lg-3 md-12">
                                 <div class="single-agent">
                                     <div class="agent-image">
-                                        <img src="{{ asset('/media/frontend_imgs/agents/ezeji.jpg') }}" alt="">
+                                        <img src="{{ asset('/media/frontend_imgs/agents/ezeji.png') }}" alt="">
                                     </div>
                                     <div class="agent-info">
                                         <div class="agent-name">
