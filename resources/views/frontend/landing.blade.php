@@ -333,7 +333,7 @@
                                         <div class="agent-name">
                                             <p>&nbsp;</p>
                                             <h5><a href="#">Engineer Auwal Bununu</a></h5>
-                                            <p>&nbsp;</p>
+                                            <p>Director</p>
                                             <a class="slider-button mt-10" href="#">BRIEF BIO</a>
                                         </div>
                                     </div>
@@ -355,6 +355,7 @@
                                         <div class="agent-name">
                                             <p>&nbsp;</p>
                                             <h5><a href="#">Barrister Ibrahim Hussein Abdullahi</a></h5>
+                                            <p>Director</p>
                                             <a class="slider-button mt-10" href="#">BRIEF BIO</a>
                                         </div>
                                     </div>
