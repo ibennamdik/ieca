@@ -25,7 +25,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth')->except(['welcome', 'about', 'contact', 'investment', 'lesson', 'search', 'lessonDetails', 'privacyPolicy', 'termsOfUse', 'services', 'productDetails', 'productGrid']);
+        $this->middleware('auth')->except(['welcome', 'about', 'contact', 'investment', 'lesson', 'boardDetails', 'search', 'lessonDetails', 'privacyPolicy', 'termsOfUse', 'services', 'productDetails', 'productGrid']);
         $this->middleware('permission:member dashboard', ['only' => ['dashboard']]);
     }
 
@@ -79,6 +79,20 @@ class HomeController extends Controller
 
         return view('frontend.lesson-details', compact('post', 'categories', 'posts'));
     }
+
+    public function boardDetails()
+    {
+        return view('frontend.board-details');
+    }
+
+
+
+
+
+
+
+
+
 
     public function comment(Request $request, Post $post) {
 

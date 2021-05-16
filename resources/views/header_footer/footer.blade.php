@@ -162,10 +162,7 @@
                                 </div>
                                 <div class="address-info">
                                     <span>Telephone : +234 807 883 0874</span>
-                                    <span>Telephone : +234 703 676 4008</span>
-                                    <span>Telephone : +234 807 575 0900</span>
-                                    <span>Telephone : +234 806 664 7753</span>
-                                    <span>Telephone : +234 802 223 7099</span>
+                                    <span>Telephone : +234 802 555 8531</span>
                                 </div>
                             </li>
                             <li>

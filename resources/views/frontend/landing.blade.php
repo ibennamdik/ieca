@@ -312,13 +312,13 @@
                                             <p>&nbsp;</p>
                                             <h5><a href="#">Chief Michael Nkwocha</a></h5>
                                             <p>Chairman</p>
-                                            <a class="slider-button mt-10" href="#">BRIEF BIO</a>
+                                            <a class="slider-button mt-10" href="{{ route('board.details') }}#nneka">BRIEF BIO</a>
                                         </div>
                                     </div>
                                     <div class="agent-info-hover text-center">
                                         <div>
                                             <h5><a href="#">Chief Michael Nkwocha</a></h5>
-                                            <a class="slider-button mt-40" href="#">BRIEF BIO</a>
+                                            <a class="slider-button mt-40" href="{{ route('board.details') }}#nneka">BRIEF BIO</a>
                                         </div>
                                     </div>
                                 </div>
@@ -334,13 +334,13 @@
                                             <p>&nbsp;</p>
                                             <h5><a href="#">Engineer Auwal Bununu</a></h5>
                                             <p>Director</p>
-                                            <a class="slider-button mt-10" href="#">BRIEF BIO</a>
+                                            <a class="slider-button mt-10" href="{{ route('board.details') }}#nneka">BRIEF BIO</a>
                                         </div>
                                     </div>
                                     <div class="agent-info-hover text-center">
                                         <div>
                                             <h5><a href="#">Engineer Auwal Bununu</a></h5>
-                                            <a class="slider-button mt-40" href="#">BRIEF BIO</a>
+                                            <a class="slider-button mt-40" href="{{ route('board.details') }}#nneka">BRIEF BIO</a>
                                         </div>
                                     </div>
                                 </div>
@@ -356,13 +356,13 @@
                                             <p>&nbsp;</p>
                                             <h5><a href="#">Barrister Ibrahim Hussein Abdullahi</a></h5>
                                             <p>Director</p>
-                                            <a class="slider-button mt-10" href="#">BRIEF BIO</a>
+                                            <a class="slider-button mt-10" href="{{ route('board.details') }}#nneka">BRIEF BIO</a>
                                         </div>
                                     </div>
                                     <div class="agent-info-hover text-center">
                                         <div>
                                             <h5><a href="#">Barrister Ibrahim Hussein Abdullahi</a></h5>
-                                            <a class="slider-button mt-40" href="#">BRIEF BIO</a>
+                                            <a class="slider-button mt-40" href="{{ route('board.details') }}#nneka">BRIEF BIO</a>
                                         </div>
                                     </div>
                                 </div>
@@ -378,13 +378,13 @@
                                             <p>&nbsp;</p>
                                             <h5><a href="#">Mrs Nneka Brittain</a></h5>
                                             <p>Director</p>
-                                            <a class="slider-button mt-10" href="#">BRIEF BIO</a>
+                                            <a class="slider-button mt-10" href="{{ route('board.details') }}#nneka">BRIEF BIO</a>
                                         </div>
                                     </div>
                                     <div class="agent-info-hover text-center">
                                         <div>
                                             <h5><a href="#">Mrs Nneka Brittain</a></h5>
-                                            <a class="slider-button mt-40" href="#">BRIEF BIO</a>
+                                            <a class="slider-button mt-40" href="{{ route('board.details') }}#nneka">BRIEF BIO</a>
                                         </div>
                                     </div>
                                 </div>
@@ -401,13 +401,13 @@
                                             <p>&nbsp;</p>
                                             <h5><a href="#">Dr. Okey Ani</a></h5>
                                             <p>Advisor</p>
-                                            <a class="slider-button mt-10" href="#">BRIEF BIO</a>
+                                            <a class="slider-button mt-10" href="{{ route('board.details') }}#okey">BRIEF BIO</a>
                                         </div>
                                     </div>
                                     <div class="agent-info-hover text-center">
                                         <div>
                                             <h5><a href="#">Dr. Okey Ani</a></h5>
-                                            <a class="slider-button mt-40" href="#">BRIEF BIO</a>
+                                            <a class="slider-button mt-40" href="{{ route('board.details') }}#okey">BRIEF BIO</a>
                                         </div>
                                     </div>
                                 </div>
@@ -424,13 +424,13 @@
                                             <p>&nbsp;</p>
                                             <h5><a href="#">Scott Oradi Ugbah</a></h5>
                                             <p>Advisor</p>
-                                            <a class="slider-button mt-10" href="#">BRIEF BIO</a>
+                                            <a class="slider-button mt-10" href="{{ route('board.details') }}#scott">BRIEF BIO</a>
                                         </div>
                                     </div>
                                     <div class="agent-info-hover text-center">
                                         <div>
                                             <h5><a href="#">Scott Oradi Ugbah</a></h5>
-                                            <a class="slider-button mt-40" href="#">BRIEF BIO</a>
+                                            <a class="slider-button mt-40" href="{{ route('board.details') }}#scott">BRIEF BIO</a>
                                         </div>
                                     </div>
                                 </div>
@@ -447,13 +447,13 @@
                                             <p>&nbsp;</p>
                                             <h5><a href="#">Mr. Stanley Ijeoma</a></h5>
                                             <p>Advisor</p>
-                                            <a class="slider-button mt-10" href="#">BRIEF BIO</a>
+                                            <a class="slider-button mt-10" href="{{ route('board.details') }}#stanley">BRIEF BIO</a>
                                         </div>
                                     </div>
                                     <div class="agent-info-hover text-center">
                                         <div>
                                             <h5><a href="#">Mr. Stanley Ijeoma</a></h5>
-                                            <a class="slider-button mt-40" href="#">BRIEF BIO</a>
+                                            <a class="slider-button mt-40" href="{{ route('board.details') }}#stanley">BRIEF BIO</a>
                                         </div>
                                     </div>
                                 </div>
@@ -470,13 +470,13 @@
                                             <p>&nbsp;</p>
                                             <h5><a href="#">Mr. Ezeji Benneth</a></h5>
                                             <p>Advisor</p>
-                                            <a class="slider-button mt-10" href="#">BRIEF BIO</a>
+                                            <a class="slider-button mt-10" href="{{ route('board.details') }}#ezeji">BRIEF BIO</a>
                                         </div>
                                     </div>
                                     <div class="agent-info-hover text-center">
                                         <div>
                                             <h5><a href="#">Mr. Ezeji Benneth</a></h5>
-                                            <a class="slider-button mt-40" href="#">BRIEF BIO</a>
+                                            <a class="slider-button mt-40" href="{{ route('board.details') }}#ezeji">BRIEF BIO</a>
                                         </div>
                                     </div>
                                 </div>
@@ -496,8 +496,8 @@
                                 <div class="row">
                                     <div class="col-lg-8 col-md-9">
                                         <div class="section-title mb-30">
-                                            <h3>Developer,</h3>
-                                            <h2 class="h1">Architects and Engineers</h2>
+                                            <!-- <h3>Developer,</h3> -->
+                                            <h2 class="h1">Developer, Architects and Engineers</h2>
                                         </div>
                                         <div class="testimonial-carousel dots-right-btm">
                                             <!-- testimonial-item -->
@@ -532,6 +532,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
+                        <h2 class="h1">Our Partners</h2>
                             <div class="brand-carousel">
                                
                                  <!-- brand-item -->
